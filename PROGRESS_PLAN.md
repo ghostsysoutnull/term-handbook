@@ -57,6 +57,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Makefile Automation Guide        | `development/MAKEFILE_GUIDE.md`                  |
 | ✅     | Zsh Guide                        | `terminal/ZSH_GUIDE.md`                          |
 | ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
+| ✅     | Gemini CLI Guide                 | `development/GEMINI_CLI_GUIDE.md`                |
 
 ---
 

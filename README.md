@@ -40,6 +40,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](development/GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
 | [GitHub CLI](development/GH_GUIDE.md) | Terminal-based GitHub repository management.   |
+| [Gemini CLI](development/GEMINI_CLI_GUIDE.md) | AI-powered terminal automation and assistance. |
 | [Regex Master](development/REGEX_GUIDE.md) | The universal language of pattern matching.    |
 | [sed Guide](development/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
