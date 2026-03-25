@@ -93,6 +93,30 @@ A quick reference for modern, high-performance, and feature-rich alternatives to
 - **Network Monitoring:** It provides real-time graphs for every active network interface.
 - **Resource Usage:** While `btop` is very fast, it uses more CPU and memory than a simple `top` or `htop`.
 
+## 5. zellij (`tmux` / `screen` alternative)
+`zellij` is a modern terminal multiplexer with built-in layouts, a plugin system, and a discoverable UI.
+
+| Key (Default)   | Action                                           |
+| :-------------- | :----------------------------------------------- |
+| `Ctrl-g`        | Toggle **Locked** mode (prevents accidental key hits). |
+| `Ctrl-p`        | **Pane** management (new, move, resize).         |
+| `Ctrl-t`        | **Tab** management (new, close, rename).         |
+| `Ctrl-n`        | **Resize** current pane.                         |
+| `Ctrl-s`        | **Scroll** / Search mode.                        |
+| `Ctrl-q`        | **Quit** zellij.                                 |
+
+### Configuration
+- **File Location:** `~/.config/zellij/config.kdl`
+- **Features:**
+  - `theme = "default"`: Choose from many built-in themes.
+  - `simplified_ui = true`: Remove the status bar for more screen space.
+
+### Pro Tips & Gotchas
+- **No Prefix Required:** Unlike `tmux` (`Ctrl-b`), `zellij` uses **modes**. You enter a mode (like Pane mode) and then use simple keys.
+- **Layouts:** Use KDL files to define complex window layouts (e.g., one big pane on top, three small on bottom).
+- **Floating Panes:** Press `Ctrl-p w` to toggle a floating terminal window.
+- **Discoverability:** The status bar at the bottom always shows which keys are available in your current mode.
+
 ---
 
 ## 🔗 See Also
