@@ -38,6 +38,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](development/GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
 | [GitHub CLI](development/GH_GUIDE.md) | Terminal-based GitHub repository management.   |
+| [Regex Master](development/REGEX_GUIDE.md) | The universal language of pattern matching.    |
 | [awk Guide](development/AWK_GUIDE.md) | Pattern scanning and text-processing language. |
 | [CI/CD Basics](development/CICD_GUIDE.md) | Automating workflows with GitHub Actions.    |
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |

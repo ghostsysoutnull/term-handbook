@@ -43,11 +43,23 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Terminal Web Browsers Guide      | `terminal/WEB_BROWSERS_GUIDE.md` |
 | ✅     | awk Guide                        | `development/AWK_GUIDE.md`       |
 | ✅     | Emacs Guide                      | `editors/EMACS_GUIDE.md`         |
-| ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                      |
+| ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
+
+---
+
+## Phase 7: Advanced Unix Mastery (In Progress)
+
+| Status | Task                             | Description                                      |
+| :----- | :------------------------------- | :----------------------------------------------- |
+| ✅     | Regex Master Guide               | `development/REGEX_GUIDE.md`                     |
+| 📅     | `sed` (Stream Editor) Guide      | Bulk text manipulation and substitution.         |
+| 📅     | Linux Filesystem (FHS) Guide     | Understanding `/etc`, `/usr`, `/var`, etc.       |
+| 📅     | Makefile Automation Guide        | Using `make` for project task automation.        |
 
 ---
 
 ## Phase 4: Power User & Meta Tools (Next Steps)
+
 
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
