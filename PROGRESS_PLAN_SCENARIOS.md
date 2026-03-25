@@ -8,7 +8,7 @@ A collection of fictional but realistic scenarios demonstrating how to combine t
 | :----- | :------------------------- | :-------------------------------- | :----------------------------------------------- |
 | ✅     | The 2 AM Log Safari        | `rg`, `awk`, `sed`, `sort`        | `scenarios/LOG_SAFARI.md`                        |
 | ✅     | The Firewall Wall          | `ssh`, `-L`, `-R`, `config`       | `scenarios/FIREWALL_WALL.md`                     |
-| 📅     | The Merge Conflict from Hell| `git`, `vim` (splits/diff), `stash`| Surgically resolving high-stakes conflicts.      |
+| ✅     | The Merge Conflict from Hell| `git`, `vim` (splits/diff), `stash`| `scenarios/MERGE_CONFLICT.md`                    |
 | 📅     | The Nomad Coder            | `git` (bare repo), `zsh`, `stow`  | Instant environment setup on a fresh machine.    |
 | 📅     | The Zombie Process Hunter  | `htop`, `ps`, `kill`, `lsof`      | Debugging ghost resource leaks on production.   |
 
