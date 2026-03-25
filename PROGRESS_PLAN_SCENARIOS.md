@@ -12,6 +12,7 @@ A collection of fictional but realistic scenarios demonstrating how to combine t
 | ✅     | The Nomad Coder            | `git` (bare repo), `zsh`, `stow`  | `scenarios/NOMAD_CODER.md`                       |
 | ✅     | The Zombie Process Hunter  | `htop`, `ps`, `kill`, `lsof`      | `scenarios/ZOMBIE_HUNTER.md`                     |
 | ✅     | The Server that Suffocated | `df`, `du`, `find`, `truncate`    | `scenarios/SERVER_SUFFOCATED.md`                 |
+| ✅     | The Git Time Traveler      | `git reflog`, `fsck`, `show`      | `scenarios/GIT_TIME_TRAVELER.md`                 |
 
 ---
 
