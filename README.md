@@ -38,6 +38,12 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 
 ---
 
+## 🛠️ Repository Tools
+- **[Search Script](bin/guide-find.sh):** Quickly search for a command across all guides.
+  - **Usage:** `./bin/guide-find.sh <search_term>`
+
+---
+
 ## 📜 Repository Meta
 - [Project Plan](PROGRESS_PLAN.md): Track the current progress and future tasks.
 - [Project Mandates](GEMINI.md): Standards for all documentation.
