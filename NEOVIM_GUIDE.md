@@ -14,15 +14,15 @@ Neovim is a fork of Vim focused on extensibility and usability.
 | **Saner Defaults**     | Many modern features are enabled by default.     |
 
 ## 2. Configuration (`init.lua`)
-Neovim uses `~/.config/nvim/init.lua` as its primary configuration file.
+Neovim's modern configuration is written in Lua.
 
-| Command                | Description                                      |
-| :--------------------- | :----------------------------------------------- |
-| `:echo stdpath('config')` | Show your Neovim config directory path.       |
-| `vim.opt.number = true` | Show line numbers (Lua).                         |
-| `vim.opt.relativenumber = true` | Show relative line numbers (Lua).      |
-| `vim.opt.expandtab = true` | Use spaces instead of tabs.                  |
-| `vim.keymap.set('n', '<leader>w', ':w<CR>')` | Create a new keymapping. |
+- **File Location:** `~/.config/nvim/init.lua`
+- **Essential Lua Settings:**
+  - `vim.opt.number = true`: Show line numbers.
+  - `vim.opt.relativenumber = true`: Show relative line numbers.
+  - `vim.opt.shiftwidth = 4`: Size of an indent.
+  - `vim.opt.ignorecase = true`: Ignore case in search patterns.
+  - `vim.g.mapleader = " "`: Set the "Leader" key to Space.
 
 ## 3. Plugin Management (lazy.nvim)
 The most popular modern plugin manager for Neovim.

@@ -42,7 +42,18 @@ A quick reference for common Vim operations, screen splitting, pane management, 
 - `N`: Jump to the previous search match.
 - `:noh` (or `:nohlsearch`): Clear the current search highlight.
 
-## 7. Pro Tips & Gotchas
+## 7. Configuration
+Vim is configured using the `.vimrc` file located in your home directory.
+
+- **File Location:** `~/.vimrc`
+- **Common Settings:**
+  - `set number`: Always show line numbers.
+  - `set tabstop=4`: Set tab width to 4 spaces.
+  - `set expandtab`: Use spaces instead of actual tabs.
+  - `syntax on`: Enable syntax highlighting.
+  - `colorscheme desert`: Set a built-in color scheme.
+
+## 8. Pro Tips & Gotchas
 - **Accidental Recording:** If you see `recording @q` at the bottom, you hit `q` by mistake. Press `q` again to stop recording.
 - **Stuck in a Mode:** If you're lost, hit `Esc` multiple times to return to Normal mode.
 - **Search Highlighting:** If your screen is covered in highlights after a search, use `:noh` to clear them.

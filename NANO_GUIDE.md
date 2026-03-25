@@ -27,7 +27,18 @@ A quick reference for simple and efficient text editing with GNU nano.
 - `Alt-w`: **Repeat** the last search.
 - `Ctrl-\`: **Replace** a string (search and replace).
 
-## 6. Pro Tips & Gotchas
+## 6. Configuration
+nano is configured via the `.nanorc` file.
+
+- **File Location:** `~/.nanorc`
+- **Useful Settings:**
+  - `set linenumbers`: Always show line numbers.
+  - `set mouse`: Enable mouse support for cursor placement.
+  - `set softwrap`: Wrap lines without breaking them.
+  - `set tabsize 4`: Set the default tab width.
+  - `include "/usr/share/nano/*.nanorc"`: Enable syntax highlighting for various languages.
+
+## 7. Pro Tips & Gotchas
 - **Accidental Exit:** If you hit `Ctrl-x` by mistake, nano will prompt you to save. Just hit `n` to discard or `Enter` to save and quit.
 - **Copy and Paste:** Remember that nano uses its own cutbuffer (`Ctrl-k`, `Ctrl-u`), which is separate from your system clipboard.
 - **Save and Continue:** Use `Ctrl-o` to save without exiting, which is a great way to "checkpoint" your work.

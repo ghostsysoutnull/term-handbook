@@ -31,7 +31,17 @@ All commands start with the escape sequence **Ctrl-a**.
 - `Ctrl-a X` (uppercase): Close the current region.
 - `Ctrl-a Q` (uppercase): Close all regions except the current one.
 
-## 5. Pro Tips & Gotchas
+## 5. Configuration
+GNU Screen is configured via the `.screenrc` file.
+
+- **File Location:** `~/.screenrc`
+- **Common Settings:**
+  - `defscrollback 5000`: Increase the scrollback buffer size.
+  - `startup_message off`: Disable the splash screen on startup.
+  - `vbell off`: Disable the visual bell.
+  - `caption always "%{= wk} %-w%{= BW}%n %t%{-}%+w %=%H %Y-%m-%d %c"`: Enable a basic status line.
+
+## 6. Pro Tips & Gotchas
 - **Session Not Found:** If `screen -ls` shows "Dead" sessions, use `screen -wipe` to clean them up.
 - **Accidental Close:** Use `Ctrl-a d` to detach, NOT `Ctrl-a k`, which kills the window!
 - **Resize Issues:** If reattaching makes your terminal look weird, run `screen -d -r` to force a resize.

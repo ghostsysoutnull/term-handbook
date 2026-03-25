@@ -43,7 +43,17 @@ All shortcuts start with the prefix sequence **Ctrl-b** (by default).
 - `Ctrl-b ]`: Paste the last copied buffer.
 - `Esc`: Exit copy mode.
 
-## 8. Pro Tips & Gotchas
+## 8. Configuration
+tmux is configured via the `.tmux.conf` file.
+
+- **File Location:** `~/.tmux.conf`
+- **Recommended Settings:**
+  - `set -g mouse on`: Enable mouse support for panes and windows.
+  - `set -g history-limit 10000`: Increase scrollback history.
+  - `set -g default-terminal "screen-256color"`: Ensure proper color support.
+  - `unbind C-b` / `set-option -g prefix C-a` / `bind-key C-a send-prefix`: Remap prefix to Ctrl-a.
+
+## 9. Pro Tips & Gotchas
 - **Accidental Window Close:** If you accidentally close a pane or window, it's gone. Use `Ctrl-b d` to safely detach instead.
 - **Scrollback Issues:** If your mouse doesn't scroll naturally, you're not alone. Use `Ctrl-b [` to enter copy mode and scroll with arrow keys or `Page Up/Down`.
 - **Prefix Fatigue:** Most power users remap `Ctrl-b` to `Ctrl-a` in `.tmux.conf` for easier access (Screen uses `Ctrl-a` as well).
