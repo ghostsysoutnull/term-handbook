@@ -23,6 +23,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Shell Basics](SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
 | [SSH & Networking](SSH_GUIDE.md) | Secure remote access, keys, and tunnels.     |
 | [Docker Essentials](DOCKER_GUIDE.md) | Container management, images, and Compose.   |
+| [htop Guide](HTOP_GUIDE.md) | Interactive process monitoring and management. |
 | [GNU Screen](SCREEN_GUIDE.md) | Session and window management for Screen.    |
 | [tmux](TMUX_GUIDE.md)     | Advanced session, pane, and layout management.   |
 | [Screen vs. tmux](SCREEN_VS_TMUX.md) | A deep dive into the architectural differences. |
@@ -37,6 +38,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 
 ## 📜 Repository Meta
 - [Project Plan](PROGRESS_PLAN.md): Track the current progress and future tasks.
+- [Project Mandates](GEMINI.md): Standards for all documentation.
 - **Goal:** Provide distraction-free, terminal-friendly documentation.
 
 ---

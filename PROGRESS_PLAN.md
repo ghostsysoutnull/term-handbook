@@ -38,6 +38,8 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | SSH & Networking Guide           | Connecting, key management, and port forwarding. |
 | ✅     | Docker Essentials                | Containers, images, and basic compose usage.     |
 | ✅     | Markdown Best Practices          | Styling and structuring documentation.           |
+| ✅     | htop Guide                       | Interactive process monitoring and management. |
+| ✅     | Project Mandates (GEMINI.md)      | Define core standards for future maintenance.    |
 
 ---
 
