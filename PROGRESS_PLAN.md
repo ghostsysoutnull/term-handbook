@@ -58,6 +58,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Zsh Guide                        | `terminal/ZSH_GUIDE.md`                          |
 | ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
 | ✅     | Core Utilities Guide             | `terminal/CORE_UTILITIES.md`                     |
+| ✅     | Compression Utilities Guide      | `terminal/COMPRESSION_GUIDE.md`                  |
 | ✅     | Gemini CLI Guide                 | `ai-agents/GEMINI_CLI_GUIDE.md`                  |
 | ✅     | Claude CLI Guide                 | `ai-agents/CLAUDE_CLI_GUIDE.md`                  |
 | ✅     | codex-cli Guide                  | `ai-agents/CODEX_CLI_GUIDE.md`                   |
