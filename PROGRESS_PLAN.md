@@ -42,6 +42,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | GitHub CLI Guide                 | `development/GH_GUIDE.md`  |
 | ✅     | Terminal Web Browsers Guide      | `terminal/WEB_BROWSERS_GUIDE.md` |
 | ✅     | awk Guide                        | `development/AWK_GUIDE.md`       |
+| ✅     | GCC Guide                        | `development/GCC_GUIDE.md`       |
 | ✅     | Emacs Guide                      | `editors/EMACS_GUIDE.md`         |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
