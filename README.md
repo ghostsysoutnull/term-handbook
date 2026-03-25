@@ -42,6 +42,8 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 ## 🛠️ Repository Tools
 - **[Search Script](bin/guide-find.sh):** Quickly search for a command across all guides.
   - **Usage:** `./bin/guide-find.sh <search_term>`
+- **[Linting Script](bin/lint-docs.sh):** Check all guides for styling and consistency.
+  - **Usage:** `./bin/lint-docs.sh` (Requires `markdownlint-cli`).
 
 ---
 
