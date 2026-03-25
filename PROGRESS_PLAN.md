@@ -39,6 +39,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Docker Essentials                | `development/DOCKER_GUIDE.md`|
 | ✅     | Markdown Best Practices          | `development/MARKDOWN_GUIDE.md`|
 | ✅     | htop Guide                       | `terminal/HTOP_GUIDE.md`   |
+| ✅     | GitHub CLI Guide                 | `development/GH_GUIDE.md`  |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
 ---
