@@ -10,35 +10,67 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     exit 1
 fi
 
-echo "--- Modern Shell Prompt Picker ---"
+echo "--- Ultimate Shell Prompt Picker ---"
 echo "Select a sleek prompt style for your current session:"
 
-options=("Sleek Symbol" "Cyberpunk" "Ghost" "Minimalist" "Neon Path")
+options=(
+    "Sleek Symbol" 
+    "Cyberpunk" 
+    "Ghost" 
+    "Minimalist" 
+    "Neon Path"
+    "Zen Dot"
+    "Dracula"
+    "Nordic"
+    "Matrix"
+    "Solarized"
+)
+
 select opt in "${options[@]}" "Exit"; do
     case $opt in
         "Sleek Symbol")
-            # Green path with a Blue chevron
             export PS1='\[\e[32m\]\w \[\e[34m\]❯ \[\e[0m\]'
             break
             ;;
         "Cyberpunk")
-            # Magenta user, Cyan host, Yellow path, Green arrow
             export PS1='\[\e[35m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\] \[\e[33m\]\w\[\e[0m\] \[\e[32m\]➜ \[\e[0m\]'
             break
             ;;
         "Ghost")
-            # Dark gray path/host with a Magenta bolt
             export PS1='\[\e[1;30m\]\w \[\e[1;37m\]\h \[\e[35m\]⚡ \[\e[0m\]'
             break
             ;;
         "Minimalist")
-            # Directory name only (basename), Green $
             export PS1='\[\e[1;34m\]\W \[\e[1;32m\]$ \[\e[0m\]'
             break
             ;;
         "Neon Path")
-            # High-intensity Cyan path on a new line
             export PS1='\[\e[1;36m\]\w\[\e[0m\]\n\[\e[1;32m\]❯ \[\e[0m\]'
+            break
+            ;;
+        "Zen Dot")
+            # Just a green dot, very clean
+            export PS1='\[\e[1;32m\]● \[\e[0m\]'
+            break
+            ;;
+        "Dracula")
+            # Purple/Pink/Yellow theme
+            export PS1='\[\e[1;35m\]\u \[\e[33m\]in \[\e[1;36m\]\w \[\e[1;32m\]λ \[\e[0m\]'
+            break
+            ;;
+        "Nordic")
+            # Frosty Blue/White theme
+            export PS1='\[\e[34m\]\u\[\e[37m\]@\[\e[36m\]\h \[\e[34m\]\w \[\e[36m\]» \[\e[0m\]'
+            break
+            ;;
+        "Matrix")
+            # Classic Green on Black
+            export PS1='\[\e[32m\][\u@\h \W]\$ \[\e[0m\]'
+            break
+            ;;
+        "Solarized")
+            # Yellow/Orange/Green theme
+            export PS1='\[\e[33m\]\u \[\e[31m\]\w \[\e[32m\]$ \[\e[0m\]'
             break
             ;;
         "Exit")
