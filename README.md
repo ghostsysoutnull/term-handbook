@@ -23,6 +23,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Shell Basics](terminal/SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
 | [Power User Toolkit](terminal/POWER_USER_TOOLKIT.md) | `fzf`, `ripgrep`, `fd`, and `jq` essentials. |
 | [SSH & Networking](terminal/SSH_GUIDE.md) | Secure remote access, keys, and tunnels.     |
+| [Modern Alternatives](terminal/MODERN_ALTERNATIVES.md) | `bat`, `eza`, `zoxide`, `btop`, `zellij`, and `yazi`. |
 | [Docker Essentials](development/DOCKER_GUIDE.md) | Container management, images, and Compose.   |
 | [SysAdmin Essentials](terminal/SYSADMIN_GUIDE.md) | `systemd`, `journalctl`, `cron`, and `ufw`.  |
 | [Web Browsers](terminal/WEB_BROWSERS_GUIDE.md) | Browsing without a GUI with `lynx`, `w3m`, and `elinks`. |
