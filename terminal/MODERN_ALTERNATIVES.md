@@ -47,6 +47,28 @@ A quick reference for modern, high-performance, and feature-rich alternatives to
 - **Sorting:** Use `eza --sort=size` or `eza --sort=modified` for quick analysis.
 - **Icons:** You MUST have a **Nerd Font** installed in your terminal to see the icons correctly.
 
+## 3. zoxide (`cd` alternative)
+`zoxide` is a smarter `cd` command that learns which directories you visit most frequently.
+
+| Command                | Description                                      |
+| :--------------------- | :----------------------------------------------- |
+| `z <path>`             | Jump to a directory matching the path.            |
+| `zi <path>`            | Interactive jump using a fuzzy finder (like `fzf`).|
+| `z -`                  | Jump to the previous directory.                  |
+| `zoxide query -l`      | List all directories in the database.            |
+| `zoxide remove <p>`    | Remove a directory from the database.            |
+
+### Configuration
+- **Shell Integration:** You must initialize `zoxide` in your shell config:
+  - Bash: `eval "$(zoxide init bash)"`
+  - Zsh: `eval "$(zoxide init zsh)"`
+
+### Pro Tips & Gotchas
+- **Frecency:** `zoxide` uses a "frecency" algorithm (frequency + recency). The more you visit a directory, the easier it is to "z" to it.
+- **Shortcuts:** You don't need the full path. `z term` will likely jump you to `~/projects/term-handbook`.
+- **Interactive Mode:** `zi` is incredibly powerful when combined with `fzf`. It lets you pick from a list of your most common directories.
+- **Initial Setup:** It won't work for directories you haven't visited yet since installing it. Once you `cd` into them once, `zoxide` will remember them.
+
 ---
 
 ## 🔗 See Also
