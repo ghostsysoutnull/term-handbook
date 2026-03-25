@@ -60,7 +60,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | :----- | :------------------------------- | :----------------------------------------------- |
 | ✅     | SysAdmin Essentials Guide        | `terminal/SYSADMIN_GUIDE.md`                     |
 | ✅     | Markdown Linting & Automation    | `.markdownlint.json` and `bin/lint-docs.sh`.     |
-| 📅     | CI/CD Basics Guide               | GitHub Actions for doc linting and deployment.   |
+| ✅     | CI/CD Basics Guide               | `development/CICD_GUIDE.md`                      |
 
 ---
 
