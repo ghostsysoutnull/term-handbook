@@ -28,6 +28,18 @@ SSH keys provide a more secure way of logging in than using passwords.
 | **Remote** | `ssh -R 8080:localhost:80 user@host`  | Forward remote port 8080 to local port 80.       |
 | **Dynamic**| `ssh -D 1080 user@host`               | Create a SOCKS proxy on local port 1080.         |
 
+### Visualizing a Local Tunnel (`ssh -L`)
+```mermaid
+graph LR
+    subgraph Local Machine
+        A[App] -- requests --> B[Port 8080]
+    end
+    B -- SSH Tunnel --> C[Remote Server]
+    subgraph Remote Server
+        C -- forward --> D[Port 80]
+    end
+```
+
 ## 4. Basic Networking Commands
 | Command                | Description                                      |
 | :--------------------- | :----------------------------------------------- |
