@@ -51,6 +51,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 ### 🎭 Battle Stories (Real-world Scenarios)
 Learn how these tools combine to solve real engineering crises.
 - [The 2 AM Log Safari](scenarios/LOG_SAFARI.md): Finding a needle in a 15GB log haystack using `rg`, `awk`, and `sed`.
+- [The Firewall Wall](scenarios/FIREWALL_WALL.md): Accessing a private database through an SSH tunnel.
 - [Scenario Roadmap](PROGRESS_PLAN_SCENARIOS.md): Upcoming stories.
 
 ---
