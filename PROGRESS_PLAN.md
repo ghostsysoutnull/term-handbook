@@ -50,7 +50,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Power User Toolkit Guide         | `terminal/POWER_USER_TOOLKIT.md`                 |
 | ✅     | Dotfiles Management Guide        | `development/DOTFILES_GUIDE.md`                  |
 | ✅     | Interactive Search Script        | `bin/guide-find.sh` for searching the guides.    |
-| 📅     | Mermaid Diagram Integration      | Add visual diagrams for complex network topics.  |
+| ✅     | Mermaid Diagram Integration      | Added visuals for complex network topics.        |
 
 ---
 
@@ -58,7 +58,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
-| 📅     | SysAdmin Essentials Guide        | `systemd`, `journalctl`, `cron`, and `ufw`.      |
+| ✅     | SysAdmin Essentials Guide        | `terminal/SYSADMIN_GUIDE.md`                     |
 | 📅     | Markdown Linting & Automation    | `markdownlint` and `.markdownlint.json` setup.   |
 | 📅     | CI/CD Basics Guide               | GitHub Actions for doc linting and deployment.   |
 

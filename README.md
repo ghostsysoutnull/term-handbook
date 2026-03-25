@@ -24,6 +24,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Power User Toolkit](terminal/POWER_USER_TOOLKIT.md) | `fzf`, `ripgrep`, `fd`, and `jq` essentials. |
 | [SSH & Networking](terminal/SSH_GUIDE.md) | Secure remote access, keys, and tunnels.     |
 | [Docker Essentials](development/DOCKER_GUIDE.md) | Container management, images, and Compose.   |
+| [SysAdmin Essentials](terminal/SYSADMIN_GUIDE.md) | `systemd`, `journalctl`, `cron`, and `ufw`.  |
 | [htop Guide](terminal/HTOP_GUIDE.md) | Interactive process monitoring and management. |
 | [GNU Screen](terminal/SCREEN_GUIDE.md) | Session and window management for Screen.    |
 | [tmux](terminal/TMUX_GUIDE.md)     | Advanced session, pane, and layout management.   |
