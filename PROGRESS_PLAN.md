@@ -54,7 +54,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Regex Master Guide               | `development/REGEX_GUIDE.md`                     |
 | ✅     | `sed` (Stream Editor) Guide      | `development/SED_GUIDE.md`                       |
 | ✅     | Linux Filesystem (FHS) Guide     | `terminal/FILESYSTEM_GUIDE.md`                   |
-| 📅     | Makefile Automation Guide        | Using `make` for project task automation.        |
+| ✅     | Makefile Automation Guide        | `development/MAKEFILE_GUIDE.md`                  |
 
 ---
 
