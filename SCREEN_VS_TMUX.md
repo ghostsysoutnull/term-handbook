@@ -36,3 +36,9 @@ A guide to understanding the fundamental differences between these two terminal 
 | **Status Line**   | Manual setup required    | Enabled by default       |
 | **Scriptability** | Limited                  | High (via CLI)           |
 | **License**       | GPLv3                    | BSD                      |
+
+---
+
+## 🔗 See Also
+- [GNU Screen Guide](SCREEN_GUIDE.md): Master the classic multiplexer.
+- [tmux Guide](TMUX_GUIDE.md): Master the modern alternative.

@@ -33,3 +33,8 @@ A quick reference for simple and efficient text editing with GNU nano.
 - **Save and Continue:** Use `Ctrl-o` to save without exiting, which is a great way to "checkpoint" your work.
 - **Quick Undo:** Use `Alt-u` for a quick undo, and `Alt-e` if you want to redo it.
 - **Search Highlighting:** If you search with `Ctrl-w`, nano will highlight all matches. Use `Alt-w` to find the next one.
+
+---
+
+## 🔗 See Also
+- [Vim Basics](VIM_GUIDE.md): For when you're ready to learn a more powerful editor.

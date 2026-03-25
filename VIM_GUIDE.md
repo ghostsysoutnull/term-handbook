@@ -48,3 +48,10 @@ A quick reference for common Vim operations, screen splitting, pane management, 
 - **Search Highlighting:** If your screen is covered in highlights after a search, use `:noh` to clear them.
 - **Relative Numbers:** Use `:set rnu` to see line distances, which makes jumping (e.g., `5j` for 5 lines down) much easier.
 - **Case Sensitivity:** If searching feels unpredictable, `:set smartcase` will ignore case unless you type an uppercase letter.
+
+---
+
+## 🔗 See Also
+- [Vim Advanced](VIM_ADVANCED.md): Macros, markers, and visual block mode.
+- [Neovim](NEOVIM_GUIDE.md): Modern features and Lua-based configuration.
+- [nano](NANO_GUIDE.md): For when you just need a quick, simple edit.

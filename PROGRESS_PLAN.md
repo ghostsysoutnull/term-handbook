@@ -23,7 +23,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
 | ✅     | Create `README.md` Central Index | A main entry point with links to all guides.    |
-| ⏳     | Add "Pro Tips & Gotchas"         | Add troubleshooting and common mistakes sections. |
+| ✅     | Add "Pro Tips & Gotchas"         | Add troubleshooting and common mistakes sections. |
 | ⏳     | Cross-link Related Guides        | Add "See Also" sections to connect related topics.|
 | ⏳     | Config & Customization Sections  | Detail configuration file locations and defaults.|
 | ⏳     | Git Workflow Visuals             | Add text-based diagrams for Git's three states. |

@@ -50,3 +50,9 @@ All shortcuts start with the prefix sequence **Ctrl-b** (by default).
 - **Pane Management:** If you lose track of which pane is active, `Ctrl-b q` briefly shows pane numbers.
 - **Detached Sessions:** If you're not sure if you have sessions running, `tmux ls` will show them all.
 - **Session Recovery:** If your SSH connection drops, your tmux session will keep running. Just `tmux attach` when you reconnect.
+
+---
+
+## 🔗 See Also
+- [GNU Screen](SCREEN_GUIDE.md): The classic terminal multiplexer.
+- [Screen vs. tmux](SCREEN_VS_TMUX.md): Which one should you choose?

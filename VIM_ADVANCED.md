@@ -60,3 +60,9 @@ Vim stores deleted or copied text in registers.
 - **Registers:** Use `:reg` to see what's in your registers if you've lost track.
 - **Buffer Management:** If you have many buffers open, use `:bnext` and `:bprev` for quick switching.
 - **Search & Replace:** Use `:%s/old/new/gc` to confirm each change, which is safer than a global replace.
+
+---
+
+## 🔗 See Also
+- [Vim Basics](VIM_GUIDE.md): The essential foundation of Vim.
+- [Neovim](NEOVIM_GUIDE.md): The modern evolution of Vim.

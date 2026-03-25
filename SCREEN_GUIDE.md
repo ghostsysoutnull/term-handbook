@@ -38,3 +38,9 @@ All commands start with the escape sequence **Ctrl-a**.
 - **Scrollback Buffer:** By default, Screen has a small scrollback. You can increase this in `.screenrc` with `defscrollback <number>`.
 - **Status Line:** If you want a status line like tmux, you'll need to configure it in your `.screenrc` manually.
 - **Multi-attach:** Use `screen -x` if you want to see the same session in two different terminals at once.
+
+---
+
+## 🔗 See Also
+- [tmux](TMUX_GUIDE.md): A modern alternative with persistent layouts.
+- [Screen vs. tmux](SCREEN_VS_TMUX.md): A detailed architectural comparison.

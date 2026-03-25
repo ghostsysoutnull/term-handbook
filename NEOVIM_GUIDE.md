@@ -59,3 +59,9 @@ Neovim has a powerful built-in terminal.
 - **Plugin Management:** Using `lazy.nvim` makes it easy to add plugins. Just add them to your `lua/plugins/` directory.
 - **Copying to System Clipboard:** Use `"+y` to yank to the system clipboard (if your Neovim is compiled with clipboard support).
 - **Smooth Scrolling:** Use a plugin like `neoscroll.nvim` for a more modern scrolling experience.
+
+---
+
+## 🔗 See Also
+- [Vim Basics](VIM_GUIDE.md): The core concepts shared with Neovim.
+- [Vim Advanced](VIM_ADVANCED.md): Power-user techniques like macros and marks.
