@@ -40,6 +40,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Markdown Best Practices          | `development/MARKDOWN_GUIDE.md`|
 | ✅     | htop Guide                       | `terminal/HTOP_GUIDE.md`   |
 | ✅     | GitHub CLI Guide                 | `development/GH_GUIDE.md`  |
+| ✅     | Terminal Web Browsers Guide      | `terminal/WEB_BROWSERS_GUIDE.md` |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
 ---
