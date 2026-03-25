@@ -25,6 +25,28 @@ A quick reference for modern, high-performance, and feature-rich alternatives to
 - **Tail Replacement:** Use `tail -f file | bat --paging=never -l log` for live log monitoring with syntax highlighting.
 - **Alias cat:** Many users add `alias cat='bat'` to their `.bashrc` or `.zshrc`.
 
+## 2. eza (`ls` / `tree` alternative)
+`eza` is a successor to `exa`. It features icons, color-coded file types, and a much better tree view.
+
+| Command                | Description                                      |
+| :--------------------- | :----------------------------------------------- |
+| `eza`                  | Basic listing with color coding.                 |
+| `eza -l --icons`       | Long listing with icons.                         |
+| `eza -T`               | Recurse into directories (Tree view).            |
+| `eza --git`            | Show Git status for each file.                   |
+| `eza --header`         | Add a header line to each column.                |
+
+### Configuration
+- **Environment Variables:**
+  - `EZA_ICONS_AUTO=1`: Automatically enable icons.
+  - `EZA_STRICT=1`: Treat warnings as errors.
+
+### Pro Tips & Gotchas
+- **Tree Depth:** Use `eza -T -L 2` to see two levels of directory nesting.
+- **Git State:** `eza --git` is incredibly helpful to see which files are modified or untracked directly in your `ls` output.
+- **Sorting:** Use `eza --sort=size` or `eza --sort=modified` for quick analysis.
+- **Icons:** You MUST have a **Nerd Font** installed in your terminal to see the icons correctly.
+
 ---
 
 ## 🔗 See Also
