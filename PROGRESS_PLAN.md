@@ -57,10 +57,10 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Makefile Automation Guide        | `development/MAKEFILE_GUIDE.md`                  |
 | ✅     | Zsh Guide                        | `terminal/ZSH_GUIDE.md`                          |
 | ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
-| ✅     | Gemini CLI Guide                 | `development/GEMINI_CLI_GUIDE.md`                |
-| ✅     | Claude CLI Guide                 | `development/CLAUDE_CLI_GUIDE.md`                |
-| ✅     | codex-cli Guide                  | `development/CODEX_CLI_GUIDE.md`                 |
-| ✅     | Copilot CLI Guide                | `development/COPILOT_CLI_GUIDE.md`               |
+| ✅     | Gemini CLI Guide                 | `ai-agents/GEMINI_CLI_GUIDE.md`                  |
+| ✅     | Claude CLI Guide                 | `ai-agents/CLAUDE_CLI_GUIDE.md`                  |
+| ✅     | codex-cli Guide                  | `ai-agents/CODEX_CLI_GUIDE.md`                   |
+| ✅     | Copilot CLI Guide                | `ai-agents/COPILOT_CLI_GUIDE.md`                 |
 
 ---
 

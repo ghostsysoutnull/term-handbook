@@ -40,10 +40,6 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](development/GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
 | [GitHub CLI](development/GH_GUIDE.md) | Terminal-based GitHub repository management.   |
-| [Copilot CLI](development/COPILOT_CLI_GUIDE.md) | Agentic terminal development environment.      |
-| [Gemini CLI](development/GEMINI_CLI_GUIDE.md) | AI-powered terminal automation and assistance. |
-| [Claude CLI](development/CLAUDE_CLI_GUIDE.md) | Terminal interaction with Anthropic models.    |
-| [codex-cli](development/CODEX_CLI_GUIDE.md) | OpenAI's conversational terminal coding agent. |
 | [Regex Master](development/REGEX_GUIDE.md) | The universal language of pattern matching.    |
 | [sed Guide](development/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
@@ -52,6 +48,15 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [CI/CD Basics](development/CICD_GUIDE.md) | Automating workflows with GitHub Actions.    |
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |
 | [Markdown Best Practices](development/MARKDOWN_GUIDE.md) | Styling and structuring documentation. |
+
+### 🤖 AI Terminal Agents
+Level up your workflow with AI-powered terminal assistants.
+| Guide                     | Focus                                            |
+| :------------------------ | :----------------------------------------------- |
+| [Copilot CLI](ai-agents/COPILOT_CLI_GUIDE.md) | Agentic terminal development environment. |
+| [Gemini CLI](ai-agents/GEMINI_CLI_GUIDE.md) | AI-powered terminal automation and assistance. |
+| [Claude CLI](ai-agents/CLAUDE_CLI_GUIDE.md) | Terminal interaction with Anthropic models.    |
+| [codex-cli](ai-agents/CODEX_CLI_GUIDE.md) | OpenAI's conversational terminal coding agent. |
 
 ### 🎭 Battle Stories (Real-world Scenarios)
 Learn how these tools combine to solve real engineering crises.
