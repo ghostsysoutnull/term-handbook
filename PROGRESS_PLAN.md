@@ -67,6 +67,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Copilot CLI Guide                | `ai-agents/COPILOT_CLI_GUIDE.md`                 |
 | ✅     | Local LLM Guide                  | `ai-agents/LOCAL_LLM_GUIDE.md`                  |
 | ✅     | Shell Prompt Guide               | `terminal/SHELL_PROMPT_GUIDE.md`                |
+| ✅     | Linux Assembly Guide             | `development/ASSEMBLY_GUIDE.md`                  |
 
 ---
 
