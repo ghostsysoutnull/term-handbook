@@ -53,6 +53,7 @@ Learn how these tools combine to solve real engineering crises.
 - [The 2 AM Log Safari](scenarios/LOG_SAFARI.md): Finding a needle in a 15GB log haystack using `rg`, `awk`, and `sed`.
 - [The Firewall Wall](scenarios/FIREWALL_WALL.md): Accessing a private database through an SSH tunnel.
 - [The Merge Conflict from Hell](scenarios/MERGE_CONFLICT.md): Resolving complex code conflicts surgically with `vimdiff`.
+- [The Nomad Coder](scenarios/NOMAD_CODER.md): Instant environment setup on a fresh machine using Bare Git.
 - [Scenario Roadmap](PROGRESS_PLAN_SCENARIOS.md): Upcoming stories.
 
 ---
