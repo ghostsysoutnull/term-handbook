@@ -52,7 +52,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
 | ✅     | Regex Master Guide               | `development/REGEX_GUIDE.md`                     |
-| 📅     | `sed` (Stream Editor) Guide      | Bulk text manipulation and substitution.         |
+| ✅     | `sed` (Stream Editor) Guide      | `development/SED_GUIDE.md`                       |
 | 📅     | Linux Filesystem (FHS) Guide     | Understanding `/etc`, `/usr`, `/var`, etc.       |
 | 📅     | Makefile Automation Guide        | Using `make` for project task automation.        |
 
