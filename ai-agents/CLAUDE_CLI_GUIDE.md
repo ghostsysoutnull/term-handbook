@@ -19,6 +19,14 @@ Most Claude CLI tools are wrappers around the official Anthropic API.
 | `cat file.txt | claude`| Pipe file content to Claude for processing.      |
 | `claude --model <m>`   | Specify a model (e.g., `claude-3-5-sonnet`).     |
 
+### 2.1 Pipe-Process-Output Workflow
+```text
+[ Input Data ] ----> ( Claude CLI ) ----> [ Processed Output ]
+      ^                   |                      |
+      |             (System Prompt)              |
+      +-------------------+----------------------+
+```
+
 ## 3. Working with Files
 Claude CLI is excellent for refactoring or explaining local code.
 
@@ -38,8 +46,10 @@ Claude CLI is excellent for refactoring or explaining local code.
 Configuration is usually handled via environment variables or a config file.
 
 - **Environment Variables:**
-  - `ANTHROPIC_API_KEY`: Your authentication token.
-  - `CLAUDE_MODEL`: Set your preferred default model.
+  ```bash
+  export ANTHROPIC_API_KEY='your-key-here'
+  export CLAUDE_MODEL='claude-3-5-sonnet'
+  ```
 - **Config File:** Often located at `~/.config/claude/config.json`.
 
 ## 6. Pro Tips & Gotchas
@@ -53,4 +63,4 @@ Configuration is usually handled via environment variables or a config file.
 ## 🔗 See Also
 - [Gemini CLI Guide](GEMINI_CLI_GUIDE.md): Compare Claude with our primary terminal assistant.
 - [Shell Basics](../terminal/SHELL_GUIDE.md): Master the pipes and redirections used with Claude CLI.
-- [Markdown Guide](MARKDOWN_GUIDE.md): Format the AI's output correctly.
+- [Markdown Guide](../development/MARKDOWN_GUIDE.md): Format the AI's output correctly.

@@ -27,6 +27,13 @@ Codex can operate with varying levels of autonomy.
 | **Auto Edit**  | Automatically writes to files; asks before running commands. |
 | **Full Auto**  | Autonomously reads, writes, and executes in a sandbox. |
 
+### 3.1 Sandbox Execution Workflow
+```text
+[ Codex Core ] <----> [ Sandbox Manager ] ----> [ Filesystem Edits ]
+       |                      |             |
+       +----(User Approval)---+             +--> [ Command Execution ]
+```
+
 ## 4. In-Session Commands (TUI)
 Commands available once you are inside an active Codex session.
 
@@ -57,4 +64,4 @@ Codex stores its settings and session history in your home directory.
 ## 🔗 See Also
 - [Gemini CLI Guide](GEMINI_CLI_GUIDE.md): Compare Codex with our primary AI terminal agent.
 - [Claude CLI Guide](CLAUDE_CLI_GUIDE.md): Terminal interaction with Anthropic models.
-- [Git Guide](GIT_GUIDE.md): Essential for reviewing and committing the changes Codex suggests.
+- [Git Guide](../development/GIT_GUIDE.md): Essential for reviewing and committing the changes Codex suggests.

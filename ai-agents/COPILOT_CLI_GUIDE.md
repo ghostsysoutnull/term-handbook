@@ -19,6 +19,14 @@ Requires **Node.js v22+** and **npm v10+**.
 | `gh copilot suggest`   | (Legacy) Get shell command suggestions.          |
 | `gh copilot explain`   | (Legacy) Explain a specific shell command.       |
 
+### 2.1 Plan-Act-Validate Loop
+```text
+( Plan ) --[ strategy ]--> ( Act ) --[ implementation ]--> ( Validate )
+    ^                                                          |
+    |                         [ Fail ]                         |
+    +----------------------------------------------------------+
+```
+
 ## 3. In-Session Commands & Shortcuts
 Once you are inside an active `copilot` session, use these to manage the agent.
 
@@ -40,11 +48,12 @@ Copilot can run autonomously for repetitive or multi-step tasks.
 - **Security:** Even in Autopilot, you can monitor the command logs in real-time.
 - **Delegation:** Use `& <prompt>` to move a task to the background cloud agent.
 
-## 5. Project Context: `GEMINI.md`
-To ensure Copilot follows your specific project standards:
-- Create a `GEMINI.md` or `.copilot-instructions` file in your root.
-- Add mandates like "Always use functional components" or "Align all tables."
-- Copilot will automatically prioritize these rules over its default behavior.
+## 5. Configuration
+GitHub Copilot CLI uses a combination of global settings and local instruction files.
+
+- **Global Config:** Managed via the `gh config` command or directly in `~/.config/gh/config.yml`.
+- **Local Mandates:** Place a `GEMINI.md` or `.copilot-instructions` in the project root to define specific rules for the agent.
+- **Authentication:** Tokens are stored securely in the system keychain via `gh auth login`.
 
 ## 6. Pro Tips & Gotchas
 - **MCP Integration:** Use `/mcp add` to connect Copilot to tools like Jira, Slack, or your internal databases.
@@ -56,5 +65,5 @@ To ensure Copilot follows your specific project standards:
 
 ## 🔗 See Also
 - [Gemini CLI Guide](GEMINI_CLI_GUIDE.md): The primary tool used to build this handbook.
-- [GitHub CLI Guide](GH_GUIDE.md): Master the `gh` tool that hosts the Copilot extension.
+- [GitHub CLI Guide](../development/GH_GUIDE.md): Master the `gh` tool that hosts the Copilot extension.
 - [codex-cli Guide](CODEX_CLI_GUIDE.md): Compare with OpenAI's local terminal agent.

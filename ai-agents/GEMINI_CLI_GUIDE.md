@@ -5,6 +5,14 @@ A quick reference for using Gemini CLI to safely and effectively automate softwa
 ## 1. Core Workflow
 Gemini CLI operates on a **Research -> Strategy -> Execution** lifecycle.
 
+### 1.1 Development Lifecycle Diagram
+```text
+[ Research ] --( Context )--> [ Strategy ] --( Approval )--> [ Execution ]
+      ^                          |                              |
+      |                          +----( Feedback )--------------+
+      +---------------------------------------------------------+
+```
+
 | Phase | Goal                                            | Tooling                                          |
 | :---- | :---------------------------------------------- | :----------------------------------------------- |
 | **Research** | Understand the codebase and reproduce issues. | `grep_search`, `read_file`, `glob`.              |
@@ -18,12 +26,13 @@ Gemini CLI operates on a **Research -> Strategy -> Execution** lifecycle.
 | **Default Mode**| Used during the Execution phase.               | Surgical code edits; requires user confirmation. |
 | **YOLO Mode** | Autonomous mode for minimal interruptions.      | Executes changes without asking for confirmation.|
 
-## 3. Project Context Files
-Gemini CLI respects specific files in your repository to tailor its behavior.
+## 3. Configuration
+Gemini CLI's behavior is governed by global and local configuration.
 
-- **`GEMINI.md`**: Foundational mandates. These take absolute precedence over general defaults (e.g., "Always align tables").
-- **`.geminiignore`**: Glob patterns for files Gemini should NEVER read or modify (e.g., secrets, large binaries).
-- **`.gitignore`**: Gemini also respects standard Git ignore patterns by default.
+- **Global Settings:** `~/.gemini/` - Foundational user preferences.
+- **Project Mandates:** `GEMINI.md` - Workspace-wide absolute rules.
+- **Ignore Rules:** `.geminiignore` and `.gitignore` - Control file visibility.
+- **Environment:** `export GEMINI_API_KEY='your-key'`
 
 ## 4. Built-in Commands
 | Command | Description                                      |
@@ -49,5 +58,5 @@ For complex tasks, Gemini CLI can delegate to specialized sub-agents:
 
 ## 🔗 See Also
 - [Project Mandates](../GEMINI.md): See the specific rules we've set for this handbook.
-- [Git Guide](GIT_GUIDE.md): Master the version control Gemini uses.
+- [Git Guide](../development/GIT_GUIDE.md): Master the version control Gemini uses.
 - [Shell Basics](../terminal/SHELL_GUIDE.md): Understand the environment Gemini operates in.
