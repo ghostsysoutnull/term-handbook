@@ -56,6 +56,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Linux Filesystem (FHS) Guide     | `terminal/FILESYSTEM_GUIDE.md`                   |
 | ✅     | Makefile Automation Guide        | `development/MAKEFILE_GUIDE.md`                  |
 | ✅     | Zsh Guide                        | `terminal/ZSH_GUIDE.md`                          |
+| ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
 
 ---
 

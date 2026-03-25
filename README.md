@@ -43,6 +43,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Regex Master](development/REGEX_GUIDE.md) | The universal language of pattern matching.    |
 | [sed Guide](development/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
+| [Java JDK Guide](development/JAVA_JDK_GUIDE.md) | Essential tools in the modern Java SDK bin.   |
 | [awk Guide](development/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
 | [CI/CD Basics](development/CICD_GUIDE.md) | Automating workflows with GitHub Actions.    |
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |
