@@ -11,6 +11,7 @@ A collection of fictional but realistic scenarios demonstrating how to combine t
 | ✅     | The Merge Conflict from Hell| `git`, `vim` (splits/diff), `stash`| `scenarios/MERGE_CONFLICT.md`                    |
 | ✅     | The Nomad Coder            | `git` (bare repo), `zsh`, `stow`  | `scenarios/NOMAD_CODER.md`                       |
 | ✅     | The Zombie Process Hunter  | `htop`, `ps`, `kill`, `lsof`      | `scenarios/ZOMBIE_HUNTER.md`                     |
+| ✅     | The Server that Suffocated | `df`, `du`, `find`, `truncate`    | `scenarios/SERVER_SUFFOCATED.md`                 |
 
 ---
 
