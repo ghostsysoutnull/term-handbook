@@ -50,6 +50,6 @@ For inline code, use single backticks: `git status`.
 ---
 
 ## 🔗 See Also
-- [Vim Guide](VIM_GUIDE.md): Master the editor where you write your Markdown.
+- [Vim Guide](../editors/VIM_GUIDE.md): Master the editor where you write your Markdown.
 - [Git Guide](GIT_GUIDE.md): Version control your documentation.
-- [Project Plan](PROGRESS_PLAN.md): See how we use Markdown to track progress!
+- [Project Plan](../PROGRESS_PLAN.md): See how we use Markdown to track progress!

@@ -52,7 +52,7 @@ A quick reference for source control management with Git.
 | `git reset --hard HEAD`| Discard ALL local changes since last commit.     |
 | `git cherry-pick <hash>`| Apply a specific commit from another branch.    |
 
-## 7. Configuration
+## 6. Configuration
 Git settings are stored in several locations, with global settings being the most common.
 
 - **Global Config:** `~/.gitconfig`
@@ -68,28 +68,16 @@ Git settings are stored in several locations, with global settings being the mos
   - `git config --global core.editor "vim"`: Set your default editor.
   - `git config --global pull.rebase true`: Prefer rebasing when pulling.
 
-## 8. Configuration
-Git settings are stored in several locations, with global settings being the most common.
-
-- **Global Config:** `~/.gitconfig`
-- **Local Config:** `.git/config` (within a specific repository).
-- **Essential Aliases:**
-  ```bash
-  git config --global alias.st status
-  git config --global alias.co checkout
-  git config --global alias.br branch
-  git config --global alias.lg "log --oneline --graph --all"
-  ```
-- **Helper Settings:**
-  - `git config --global core.editor "vim"`: Set your default editor.
-  - `git config --global pull.rebase true`: Prefer rebasing when pulling.
-
-## 9. Pro Tips & Gotchas
+## 7. Pro Tips & Gotchas
 - **Undo a Mistake:** Use `git restore <file>` to undo unstaged changes and `git restore --staged <file>` to unstage.
 - **Merge Conflicts:** If you see `CONFLICT`, Git couldn't merge automatically. Open the file, look for `<<<<<<<`, fix it, then `git add` and `git commit`.
 - **Accidental Commit:** If you committed but forgot to add a file, stage it and run `git commit --amend --no-edit` to add it to the last commit.
 - **Check Your History:** Use `git log --oneline --graph --all` for a clean, visual representation of your branch history.
 - **Stashing:** If you need to switch branches but aren't ready to commit, `git stash` is your best friend.
-it` to add it to the last commit.
-- **Check Your History:** Use `git log --oneline --graph --all` for a clean, visual representation of your branch history.
-- **Stashing:** If you need to switch branches but aren't ready to commit, `git stash` is your best friend.
+
+---
+
+## 🔗 See Also
+- [Docker Essentials](DOCKER_GUIDE.md): Containerize your Git workflows.
+- [Markdown Guide](MARKDOWN_GUIDE.md): Document your repository effectively.
+- [Vim Basics](../editors/VIM_GUIDE.md): Edit commit messages like a pro.

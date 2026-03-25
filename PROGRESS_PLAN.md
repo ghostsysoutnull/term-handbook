@@ -34,12 +34,20 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
-| ✅     | Bash / Zsh Guide                 | Shell navigation, aliases, and scripting basics. |
-| ✅     | SSH & Networking Guide           | Connecting, key management, and port forwarding. |
-| ✅     | Docker Essentials                | Containers, images, and basic compose usage.     |
-| ✅     | Markdown Best Practices          | Styling and structuring documentation.           |
-| ✅     | htop Guide                       | Interactive process monitoring and management. |
-| ✅     | Project Mandates (GEMINI.md)      | Define core standards for future maintenance.    |
+| ✅     | Bash / Zsh Guide                 | `terminal/SHELL_GUIDE.md`  |
+| ✅     | SSH & Networking Guide           | `terminal/SSH_GUIDE.md`    |
+| ✅     | Docker Essentials                | `development/DOCKER_GUIDE.md`|
+| ✅     | Markdown Best Practices          | `development/MARKDOWN_GUIDE.md`|
+| ✅     | htop Guide                       | `terminal/HTOP_GUIDE.md`   |
+| ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
+
+---
+
+## Legends
+- ✅: Completed
+- ⏳: In Progress / Priority
+- 📅: Planned for Future
+ards for future maintenance.    |
 
 ---
 

@@ -64,5 +64,5 @@ CMD ["node", "index.js"]
 ---
 
 ## 🔗 See Also
-- [Shell Basics](SHELL_GUIDE.md): Essential for working inside containers.
+- [Shell Basics](../terminal/SHELL_GUIDE.md): Essential for working inside containers.
 - [Git Guide](GIT_GUIDE.md): Version control your Dockerfiles and Compose files.

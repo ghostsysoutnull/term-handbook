@@ -70,5 +70,5 @@ The shell's behavior is defined by its configuration file in your home directory
 ---
 
 ## 🔗 See Also
-- [Vim Basics](VIM_GUIDE.md): Edit configuration files efficiently.
-- [Git Guide](GIT_GUIDE.md): Version control your config files (dotfiles).
+- [Vim Basics](../editors/VIM_GUIDE.md): Edit configuration files efficiently.
+- [Git Guide](../development/GIT_GUIDE.md): Version control your config files (dotfiles).
