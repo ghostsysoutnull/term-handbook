@@ -49,6 +49,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [awk Guide](development/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
 | [CI/CD Basics](development/CICD_GUIDE.md) | Automating workflows with GitHub Actions.    |
 | [GCC Guide](development/GCC_GUIDE.md)     | Compiling C and C++ programs with GCC/G++.     |
+| [Compilation Stages](development/COMPILATION_STAGES_GUIDE.md) | Deep dive into the preprocessing, compilation, and linking. |
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |
 | [Markdown Best Practices](development/MARKDOWN_GUIDE.md) | Styling and structuring documentation. |
 
