@@ -48,6 +48,11 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |
 | [Markdown Best Practices](development/MARKDOWN_GUIDE.md) | Styling and structuring documentation. |
 
+### 🎭 Battle Stories (Real-world Scenarios)
+Learn how these tools combine to solve real engineering crises.
+- [The 2 AM Log Safari](scenarios/LOG_SAFARI.md): Finding a needle in a 15GB log haystack using `rg`, `awk`, and `sed`.
+- [Scenario Roadmap](PROGRESS_PLAN_SCENARIOS.md): Upcoming stories.
+
 ---
 
 ## 🛠️ Repository Tools
