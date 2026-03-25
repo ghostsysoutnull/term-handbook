@@ -59,6 +59,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
 | ✅     | Gemini CLI Guide                 | `development/GEMINI_CLI_GUIDE.md`                |
 | ✅     | Claude CLI Guide                 | `development/CLAUDE_CLI_GUIDE.md`                |
+| ✅     | codex-cli Guide                  | `development/CODEX_CLI_GUIDE.md`                 |
 
 ---
 
