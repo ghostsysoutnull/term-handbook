@@ -10,9 +10,10 @@ A collection of fictional but realistic scenarios demonstrating how to combine t
 | ✅     | The Firewall Wall          | `ssh`, `-L`, `-R`, `config`       | `scenarios/FIREWALL_WALL.md`                     |
 | ✅     | The Merge Conflict from Hell| `git`, `vim` (splits/diff), `stash`| `scenarios/MERGE_CONFLICT.md`                    |
 | ✅     | The Nomad Coder            | `git` (bare repo), `zsh`, `stow`  | `scenarios/NOMAD_CODER.md`                       |
-| 📅     | The Zombie Process Hunter  | `htop`, `ps`, `kill`, `lsof`      | Debugging ghost resource leaks on production.   |
+| ✅     | The Zombie Process Hunter  | `htop`, `ps`, `kill`, `lsof`      | `scenarios/ZOMBIE_HUNTER.md`                     |
 
-## Standards for Scenarios
+---
+
 - **Narrative-Driven:** Start with a crisis or a specific goal.
 - **Interoperability:** Focus on how tools work together in pipes.
 - **Code Blocks:** Provide the exact commands used in the "Solution" phase.

@@ -54,6 +54,7 @@ Learn how these tools combine to solve real engineering crises.
 - [The Firewall Wall](scenarios/FIREWALL_WALL.md): Accessing a private database through an SSH tunnel.
 - [The Merge Conflict from Hell](scenarios/MERGE_CONFLICT.md): Resolving complex code conflicts surgically with `vimdiff`.
 - [The Nomad Coder](scenarios/NOMAD_CODER.md): Instant environment setup on a fresh machine using Bare Git.
+- [The Zombie Process Hunter](scenarios/ZOMBIE_HUNTER.md): Debugging resource leaks with `htop`, `lsof`, and `flock`.
 - [Scenario Roadmap](PROGRESS_PLAN_SCENARIOS.md): Upcoming stories.
 
 ---
