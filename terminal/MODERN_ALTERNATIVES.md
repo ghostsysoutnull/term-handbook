@@ -117,6 +117,31 @@ A quick reference for modern, high-performance, and feature-rich alternatives to
 - **Floating Panes:** Press `Ctrl-p w` to toggle a floating terminal window.
 - **Discoverability:** The status bar at the bottom always shows which keys are available in your current mode.
 
+## 6. yazi (`vifm` / `ranger` alternative)
+`yazi` is a blazingly fast terminal file manager written in Rust, featuring high-performance previews and built-in image support.
+
+| Key             | Action                                           |
+| :-------------- | :----------------------------------------------- |
+| `j / k`         | Move down and up in the file list.               |
+| `l`             | Open the selected file or enter a directory.     |
+| `h`             | Move up to the parent directory.                 |
+| `Space`         | Toggle selection.                                |
+| `v`             | Enter **Visual** mode (bulk selection).          |
+| `.`             | Toggle hidden files.                             |
+| `q`             | Quit yazi.                                       |
+
+### Configuration
+- **File Location:** `~/.config/yazi/yazi.toml`
+- **Key Features:**
+  - `manager.show_hidden = false`: Customize the default view.
+  - `preview.max_width = 800`: Adjust the quality of image previews.
+
+### Pro Tips & Gotchas
+- **Blinks Speed:** `yazi` is significantly faster than `ranger` because it uses a completely different architecture (Rust + Lua).
+- **Previews:** It can preview almost anything: images, PDF thumbnails, archives, and syntax-highlighted code.
+- **Terminal Graphics:** For the best experience (image previews), use a terminal that supports the Kitty or Sixel graphics protocols.
+- **Filtering:** Type `f` to enter filter mode and quickly narrow down the file list.
+
 ---
 
 ## 🔗 See Also
