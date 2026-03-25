@@ -22,6 +22,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
 | [Shell Basics](terminal/SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
+| [Core Utilities](terminal/CORE_UTILITIES.md) | Standard programs like `cp`, `mv`, `source`, `export`. |
 | [Zsh Guide](terminal/ZSH_GUIDE.md) | Advanced features, plugins, and Oh My Zsh.   |
 | [Linux Filesystem](terminal/FILESYSTEM_GUIDE.md) | Understanding `/etc`, `/usr`, `/var`, and more. |
 | [Power User Toolkit](terminal/POWER_USER_TOOLKIT.md) | `fzf`, `ripgrep`, `fd`, and `jq` essentials. |
