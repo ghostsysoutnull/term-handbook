@@ -43,6 +43,27 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 
 ---
 
+## Phase 4: Power User & Meta Tools (Next Steps)
+
+| Status | Task                             | Description                                      |
+| :----- | :------------------------------- | :----------------------------------------------- |
+| 📅     | Power User Toolkit Guide         | `fzf`, `ripgrep`, `fd`, and `jq` essentials.     |
+| 📅     | Dotfiles Management Guide        | Managing configurations with Git or GNU Stow.    |
+| 📅     | Interactive Search Script        | `bin/guide-find.sh` for searching the guides.    |
+| 📅     | Mermaid Diagram Integration      | Add visual diagrams for complex network topics.  |
+
+---
+
+## Phase 5: Systems & Automation (Advanced)
+
+| Status | Task                             | Description                                      |
+| :----- | :------------------------------- | :----------------------------------------------- |
+| 📅     | SysAdmin Essentials Guide        | `systemd`, `journalctl`, `cron`, and `ufw`.      |
+| 📅     | Markdown Linting & Automation    | `markdownlint` and `.markdownlint.json` setup.   |
+| 📅     | CI/CD Basics Guide               | GitHub Actions for doc linting and deployment.   |
+
+---
+
 ## Legends
 - ✅: Completed
 - ⏳: In Progress / Priority
