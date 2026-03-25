@@ -42,8 +42,9 @@ A quick reference for common Vim operations, screen splitting, pane management, 
 - `N`: Jump to the previous search match.
 - `:noh` (or `:nohlsearch`): Clear the current search highlight.
 
-## 6. Editing
-- `u`: Undo.
-- `Ctrl-r`: Redo.
-- `i`: Enter Insert mode at the cursor.
-- `Esc`: Return to Normal mode.
+## 7. Pro Tips & Gotchas
+- **Accidental Recording:** If you see `recording @q` at the bottom, you hit `q` by mistake. Press `q` again to stop recording.
+- **Stuck in a Mode:** If you're lost, hit `Esc` multiple times to return to Normal mode.
+- **Search Highlighting:** If your screen is covered in highlights after a search, use `:noh` to clear them.
+- **Relative Numbers:** Use `:set rnu` to see line distances, which makes jumping (e.g., `5j` for 5 lines down) much easier.
+- **Case Sensitivity:** If searching feels unpredictable, `:set smartcase` will ignore case unless you type an uppercase letter.

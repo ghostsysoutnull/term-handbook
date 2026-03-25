@@ -31,10 +31,10 @@ All commands start with the escape sequence **Ctrl-a**.
 - `Ctrl-a X` (uppercase): Close the current region.
 - `Ctrl-a Q` (uppercase): Close all regions except the current one.
 
-## 4. Useful Features
-- `Ctrl-a [`: Enter **Copy/Scrollback Mode**.
-    - Use arrow keys or `h/j/k/l` to move.
-    - `Ctrl-b` / `Ctrl-f`: Page up/down.
-    - `Esc`: Exit scrollback mode.
-- `Ctrl-a ?`: Show help (list of all key bindings).
-- `Ctrl-a :`: Enter command line mode.
+## 5. Pro Tips & Gotchas
+- **Session Not Found:** If `screen -ls` shows "Dead" sessions, use `screen -wipe` to clean them up.
+- **Accidental Close:** Use `Ctrl-a d` to detach, NOT `Ctrl-a k`, which kills the window!
+- **Resize Issues:** If reattaching makes your terminal look weird, run `screen -d -r` to force a resize.
+- **Scrollback Buffer:** By default, Screen has a small scrollback. You can increase this in `.screenrc` with `defscrollback <number>`.
+- **Status Line:** If you want a status line like tmux, you'll need to configure it in your `.screenrc` manually.
+- **Multi-attach:** Use `screen -x` if you want to see the same session in two different terminals at once.

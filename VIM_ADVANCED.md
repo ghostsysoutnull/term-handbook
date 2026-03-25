@@ -53,8 +53,10 @@ Perfect for editing columns of text or adding prefixes to multiple lines.
 ## 6. Registers
 Vim stores deleted or copied text in registers.
 
-- `"<a-z>y`: Yank text into a specific register.
-- `"<a-z>p`: Paste text from a specific register.
-- `":`: The last executed command.
-- `"/`: The last searched pattern.
-- `"+`: The system clipboard (if supported).
+## 7. Pro Tips & Gotchas
+- **Macro Mistake:** If you mess up your macro, just hit `q` to stop and start over.
+- **Visual Block Mode:** If you select a block and hit `I` to insert, remember to hit `Esc` to apply the change to all lines.
+- **Marks:** Remember that local marks (`a-z`) only work in the current file, but global marks (`A-Z`) can jump across files.
+- **Registers:** Use `:reg` to see what's in your registers if you've lost track.
+- **Buffer Management:** If you have many buffers open, use `:bnext` and `:bprev` for quick switching.
+- **Search & Replace:** Use `:%s/old/new/gc` to confirm each change, which is safer than a global replace.

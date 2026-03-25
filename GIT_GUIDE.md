@@ -52,7 +52,9 @@ A quick reference for source control management with Git.
 | `git reset --hard HEAD`| Discard ALL local changes since last commit.     |
 | `git cherry-pick <hash>`| Apply a specific commit from another branch.    |
 
-## 6. Undoing Mistakes
-- `git restore <file>`: Discard unstaged changes in a file.
-- `git reset HEAD <file>`: Unstage a file (but keep the changes).
-- `git revert <hash>`: Create a new commit that undoes a specific commit.
+## 7. Pro Tips & Gotchas
+- **Undo a Mistake:** Use `git restore <file>` to undo unstaged changes and `git restore --staged <file>` to unstage.
+- **Merge Conflicts:** If you see `CONFLICT`, Git couldn't merge automatically. Open the file, look for `<<<<<<<`, fix it, then `git add` and `git commit`.
+- **Accidental Commit:** If you committed but forgot to add a file, stage it and run `git commit --amend --no-edit` to add it to the last commit.
+- **Check Your History:** Use `git log --oneline --graph --all` for a clean, visual representation of your branch history.
+- **Stashing:** If you need to switch branches but aren't ready to commit, `git stash` is your best friend.

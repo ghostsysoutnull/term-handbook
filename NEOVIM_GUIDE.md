@@ -52,8 +52,10 @@ Neovim has a powerful built-in terminal.
 - `Ctrl-\ Ctrl-n`: Exit **Terminal Mode** to **Normal Mode**.
 - `:set shell=/bin/zsh`: Change the default shell used by the terminal.
 
-## 6. Important Commands
-- `nvim <filename>`: Open Neovim.
-- `:checkhealth`: Check Neovim setup and plugin dependencies.
-- `:man <topic>`: View man pages inside Neovim.
-- `:source %`: Reload the current configuration file.
+## 7. Pro Tips & Gotchas
+- **Config Path:** Remember that Neovim uses `~/.config/nvim/init.lua` NOT `.vimrc`.
+- **Health Check:** If things feel broken, run `:checkhealth` to diagnose.
+- **LSP Issues:** If you're not getting completion, check `:LspInfo` to see if your language server is even active.
+- **Plugin Management:** Using `lazy.nvim` makes it easy to add plugins. Just add them to your `lua/plugins/` directory.
+- **Copying to System Clipboard:** Use `"+y` to yank to the system clipboard (if your Neovim is compiled with clipboard support).
+- **Smooth Scrolling:** Use a plugin like `neoscroll.nvim` for a more modern scrolling experience.

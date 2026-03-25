@@ -27,9 +27,9 @@ A quick reference for simple and efficient text editing with GNU nano.
 - `Alt-w`: **Repeat** the last search.
 - `Ctrl-\`: **Replace** a string (search and replace).
 
-## 5. Other Useful Features
-- `Ctrl-g`: **Get Help** (Displays a list of all commands).
-- `Ctrl-c`: Show the **current cursor position** (line, column, character).
-- `Ctrl-j`: **Justify** (Wrap) the current paragraph.
-- `Alt-u`: **Undo** the last action.
-- `Alt-e`: **Redo** the last action.
+## 6. Pro Tips & Gotchas
+- **Accidental Exit:** If you hit `Ctrl-x` by mistake, nano will prompt you to save. Just hit `n` to discard or `Enter` to save and quit.
+- **Copy and Paste:** Remember that nano uses its own cutbuffer (`Ctrl-k`, `Ctrl-u`), which is separate from your system clipboard.
+- **Save and Continue:** Use `Ctrl-o` to save without exiting, which is a great way to "checkpoint" your work.
+- **Quick Undo:** Use `Alt-u` for a quick undo, and `Alt-e` if you want to redo it.
+- **Search Highlighting:** If you search with `Ctrl-w`, nano will highlight all matches. Use `Alt-w` to find the next one.

@@ -43,5 +43,10 @@ All shortcuts start with the prefix sequence **Ctrl-b** (by default).
 - `Ctrl-b ]`: Paste the last copied buffer.
 - `Esc`: Exit copy mode.
 
-## 7. Command Mode
-- `Ctrl-b :`: Enter tmux command line.
+## 8. Pro Tips & Gotchas
+- **Accidental Window Close:** If you accidentally close a pane or window, it's gone. Use `Ctrl-b d` to safely detach instead.
+- **Scrollback Issues:** If your mouse doesn't scroll naturally, you're not alone. Use `Ctrl-b [` to enter copy mode and scroll with arrow keys or `Page Up/Down`.
+- **Prefix Fatigue:** Most power users remap `Ctrl-b` to `Ctrl-a` in `.tmux.conf` for easier access (Screen uses `Ctrl-a` as well).
+- **Pane Management:** If you lose track of which pane is active, `Ctrl-b q` briefly shows pane numbers.
+- **Detached Sessions:** If you're not sure if you have sessions running, `tmux ls` will show them all.
+- **Session Recovery:** If your SSH connection drops, your tmux session will keep running. Just `tmux attach` when you reconnect.
