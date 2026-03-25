@@ -60,6 +60,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Gemini CLI Guide                 | `development/GEMINI_CLI_GUIDE.md`                |
 | ✅     | Claude CLI Guide                 | `development/CLAUDE_CLI_GUIDE.md`                |
 | ✅     | codex-cli Guide                  | `development/CODEX_CLI_GUIDE.md`                 |
+| ✅     | Copilot CLI Guide                | `development/COPILOT_CLI_GUIDE.md`               |
 
 ---
 

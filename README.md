@@ -40,6 +40,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](development/GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
 | [GitHub CLI](development/GH_GUIDE.md) | Terminal-based GitHub repository management.   |
+| [Copilot CLI](development/COPILOT_CLI_GUIDE.md) | Agentic terminal development environment.      |
 | [Gemini CLI](development/GEMINI_CLI_GUIDE.md) | AI-powered terminal automation and assistance. |
 | [Claude CLI](development/CLAUDE_CLI_GUIDE.md) | Terminal interaction with Anthropic models.    |
 | [codex-cli](development/CODEX_CLI_GUIDE.md) | OpenAI's conversational terminal coding agent. |
