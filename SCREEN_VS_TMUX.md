@@ -28,11 +28,11 @@ A guide to understanding the fundamental differences between these two terminal 
 
 ## Summary Table
 
-| Feature | GNU Screen | tmux |
-| :--- | :--- | :--- |
-| **Release Date** | 1987 (Older, ubiquitous) | 2007 (Modern, feature-rich) |
-| **Architecture** | Single process per session | Client-Server |
-| **Splits** | Regions (fragile) | Panes (persistent) |
-| **Status Line** | Manual setup required | Enabled by default |
-| **Scriptability** | Limited | High (via CLI) |
-| **License** | GPLv3 | BSD |
+| Feature           | GNU Screen               | tmux                     |
+| :---------------- | :----------------------- | :----------------------- |
+| **Release Date**  | 1987 (Older, ubiquitous) | 2007 (Modern, feature-rich) |
+| **Architecture**  | Single process per session | Client-Server            |
+| **Splits**        | Regions (fragile)        | Panes (persistent)       |
+| **Status Line**   | Manual setup required    | Enabled by default       |
+| **Scriptability** | Limited                  | High (via CLI)           |
+| **License**       | GPLv3                    | BSD                      |
