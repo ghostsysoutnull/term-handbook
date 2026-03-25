@@ -25,8 +25,8 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Create `README.md` Central Index | A main entry point with links to all guides.    |
 | ✅     | Add "Pro Tips & Gotchas"         | Add troubleshooting and common mistakes sections. |
 | ✅     | Cross-link Related Guides        | Add "See Also" sections to connect related topics.|
-| ⏳     | Config & Customization Sections  | Detail configuration file locations and defaults.|
-| ⏳     | Git Workflow Visuals             | Add text-based diagrams for Git's three states. |
+| ✅     | Config & Customization Sections  | Detail configuration file locations and defaults.|
+| ✅     | Git Workflow Visuals             | Add text-based diagrams for Git's three states. |
 
 ---
 
@@ -34,7 +34,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
-| 📅     | Bash / Zsh Guide                 | Shell navigation, aliases, and scripting basics. |
+| ✅     | Bash / Zsh Guide                 | Shell navigation, aliases, and scripting basics. |
 | 📅     | SSH & Networking Guide           | Connecting, key management, and port forwarding. |
 | 📅     | Docker Essentials                | Containers, images, and basic compose usage.     |
 | 📅     | Markdown Best Practices          | Styling and structuring documentation.           |

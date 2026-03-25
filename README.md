@@ -17,9 +17,10 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Neovim](NEOVIM_GUIDE.md) | Modern config (Lua), LSP, and plugin ecosystem. |
 | [nano](NANO_GUIDE.md)     | Simple, fast text editing for quick tasks.       |
 
-### 2. Terminal Multiplexers
+### 2. Shell & Terminal Environment
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
+| [Shell Basics](SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
 | [GNU Screen](SCREEN_GUIDE.md) | Session and window management for Screen.    |
 | [tmux](TMUX_GUIDE.md)     | Advanced session, pane, and layout management.   |
 | [Screen vs. tmux](SCREEN_VS_TMUX.md) | A deep dive into the architectural differences. |
