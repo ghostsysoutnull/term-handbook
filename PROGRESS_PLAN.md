@@ -41,7 +41,8 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | htop Guide                       | `terminal/HTOP_GUIDE.md`   |
 | ✅     | GitHub CLI Guide                 | `development/GH_GUIDE.md`  |
 | ✅     | Terminal Web Browsers Guide      | `terminal/WEB_BROWSERS_GUIDE.md` |
-| ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
+| ✅     | awk Guide                        | `development/AWK_GUIDE.md`       |
+| ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                      |
 
 ---
 
