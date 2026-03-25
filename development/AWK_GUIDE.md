@@ -50,10 +50,46 @@ Awk doesn't have a traditional config file, but you can store complex logic in s
 - **Execution:** `awk -f script.awk input_file`
 - **Setting Variables:** Use the `-v` flag (e.g., `awk -v threshold=100 '$3 > threshold' file`).
 
-## 6. Pro Tips & Gotchas
+## 6. Control Flow and Loops
+Awk supports common programming constructs within its action blocks.
+
+| Feature         | Example                                           |
+| :-------------- | :------------------------------------------------ |
+| **If-Else**     | `{ if ($1 > 10) print "High"; else print "Low" }` |
+| **For Loop**    | `{ for (i=1; i<=NF; i++) print $i }`              |
+| **While Loop**  | `{ i=1; while (i<=NF) { print $i; i++ } }`        |
+
+## 7. Associative Arrays
+Arrays in Awk are associative, meaning they use strings as keys. This is perfect for frequency counting.
+
+| Task                      | Command                                           |
+| :------------------------ | :------------------------------------------------ |
+| **Count occurrences**     | `{ count[$1]++ } END { for (i in count) print i, count[i] }` |
+| **Unique values**         | `!seen[$1]++` (Prints only the first occurrence) |
+| **Sum by key**            | `{ total[$1] += $2 } END { for (k in total) print k, total[k] }` |
+
+## 8. Built-in Functions
+| Type    | Function           | Description                                   |
+| :------ | :----------------- | :-------------------------------------------- |
+| **String**| `length($0)`       | Returns the length of the string.             |
+| **String**| `sub(r, s, t)`     | Replaces first match of `r` with `s` in `t`.  |
+| **String**| `gsub(r, s, t)`    | Replaces ALL matches of `r` with `s` in `t`. |
+| **String**| `substr(s, i, n)`  | Returns substring of `s` starting at `i` with length `n`.|
+| **Math**  | `int(x)`, `sqrt(x)`| Integer part and square root.                 |
+
+## 9. Multi-file Processing
+| Variable   | Description                                            |
+| :--------- | :----------------------------------------------------- |
+| **FNR**    | File Number of Records (resets to 1 for each file).     |
+| **FILENAME**| The name of the current file being processed.          |
+
+- **Example:** `awk '{ print FILENAME, FNR, $0 }' file1.txt file2.txt`
+
+## 10. Pro Tips & Gotchas
 - **Column Counting:** If you're unsure how many columns a file has, `awk '{ print NF; exit }' file` will tell you for the first line.
 - **Empty Lines:** Awk considers empty lines as having 0 fields. Use `NF > 0` to skip them.
 - **Math Operations:** Awk handles floating-point math naturally, making it much better than Bash for calculations.
+- **Efficient Deduplication:** `awk '!seen[$0]++' file` is a faster way to find unique lines than `sort | uniq`.
 - **FS gotcha:** When using `-F`, remember that if your field contains the separator inside quotes, standard `awk` will still split it. For CSVs, consider specialized tools like `csvkit`.
 
 ---
