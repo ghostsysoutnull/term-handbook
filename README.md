@@ -69,6 +69,7 @@ Learn how these tools combine to solve real engineering crises.
 - [The Nomad Coder](scenarios/NOMAD_CODER.md): Instant environment setup on a fresh machine using Bare Git.
 - [The Zombie Process Hunter](scenarios/ZOMBIE_HUNTER.md): Debugging resource leaks with `htop`, `lsof`, and `flock`.
 - [The Server that Suffocated](scenarios/SERVER_SUFFOCATED.md): Recovering from 100% disk usage using `find` and `truncate`.
+- [The Git Time Traveler](scenarios/GIT_TIME_TRAVELER.md): Recovering lost commits after a `reset --hard` with `reflog`.
 - [Scenario Roadmap](PROGRESS_PLAN_SCENARIOS.md): Upcoming stories.
 
 ---
