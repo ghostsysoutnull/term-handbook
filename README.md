@@ -14,6 +14,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Vim Basics](editors/VIM_GUIDE.md) | Opening, saving, splits, and essential settings. |
 | [Vim Advanced](editors/VIM_ADVANCED.md) | Markers, macros, visual block mode, and more. |
+| [Emacs Guide](editors/EMACS_GUIDE.md) | Tiered reference for the extendable text editor. |
 | [Neovim](editors/NEOVIM_GUIDE.md) | Modern config (Lua), LSP, and plugin ecosystem. |
 | [nano](editors/NANO_GUIDE.md)     | Simple, fast text editing for quick tasks.       |
 
