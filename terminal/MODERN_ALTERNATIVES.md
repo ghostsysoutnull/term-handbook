@@ -69,6 +69,30 @@ A quick reference for modern, high-performance, and feature-rich alternatives to
 - **Interactive Mode:** `zi` is incredibly powerful when combined with `fzf`. It lets you pick from a list of your most common directories.
 - **Initial Setup:** It won't work for directories you haven't visited yet since installing it. Once you `cd` into them once, `zoxide` will remember them.
 
+## 4. btop (`htop` alternative)
+`btop` is a visually stunning, high-performance system monitor written in C++.
+
+| Key             | Action                                           |
+| :-------------- | :----------------------------------------------- |
+| `btop`          | Start the monitor.                               |
+| `m`             | Toggle the **Menu**.                             |
+| `Up/Down`       | Navigate the process list.                       |
+| `f`             | **Filter** processes by name.                    |
+| `k`             | **Kill** the selected process.                   |
+| `t`             | Toggle between **Tree** and list view.           |
+
+### Configuration
+- **File Location:** `~/.config/btop/btop.conf`
+- **Options:**
+  - `color_theme = "gruvbox"`: Change the dashboard's look.
+  - `proc_sorting = "cpu lazy"`: Customize the process sorting.
+
+### Pro Tips & Gotchas
+- **Layouts:** Use the number keys `1`, `2`, `3`, `4` to toggle dashboard panels (CPU, Mem, Net, Proc).
+- **Mouse Support:** `btop` has excellent mouse support—you can click buttons and tabs directly.
+- **Network Monitoring:** It provides real-time graphs for every active network interface.
+- **Resource Usage:** While `btop` is very fast, it uses more CPU and memory than a simple `top` or `htop`.
+
 ---
 
 ## 🔗 See Also
