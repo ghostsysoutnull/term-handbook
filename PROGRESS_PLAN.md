@@ -58,6 +58,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Zsh Guide                        | `terminal/ZSH_GUIDE.md`                          |
 | ✅     | Java JDK Guide                   | `development/JAVA_JDK_GUIDE.md`                  |
 | ✅     | Gemini CLI Guide                 | `development/GEMINI_CLI_GUIDE.md`                |
+| ✅     | Claude CLI Guide                 | `development/CLAUDE_CLI_GUIDE.md`                |
 
 ---
 
