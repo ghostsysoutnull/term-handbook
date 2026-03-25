@@ -21,6 +21,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
 | [Shell Basics](terminal/SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
+| [Power User Toolkit](terminal/POWER_USER_TOOLKIT.md) | `fzf`, `ripgrep`, `fd`, and `jq` essentials. |
 | [SSH & Networking](terminal/SSH_GUIDE.md) | Secure remote access, keys, and tunnels.     |
 | [Docker Essentials](development/DOCKER_GUIDE.md) | Container management, images, and Compose.   |
 | [htop Guide](terminal/HTOP_GUIDE.md) | Interactive process monitoring and management. |

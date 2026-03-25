@@ -47,7 +47,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
-| 📅     | Power User Toolkit Guide         | `fzf`, `ripgrep`, `fd`, and `jq` essentials.     |
+| ✅     | Power User Toolkit Guide         | `terminal/POWER_USER_TOOLKIT.md`                 |
 | 📅     | Dotfiles Management Guide        | Managing configurations with Git or GNU Stow.    |
 | 📅     | Interactive Search Script        | `bin/guide-find.sh` for searching the guides.    |
 | 📅     | Mermaid Diagram Integration      | Add visual diagrams for complex network topics.  |
