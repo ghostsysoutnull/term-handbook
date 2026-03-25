@@ -10,33 +10,35 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     exit 1
 fi
 
-echo "--- Shell Prompt Picker ---"
-echo "Select a prompt style to apply to your current session:"
+echo "--- Modern Shell Prompt Picker ---"
+echo "Select a sleek prompt style for your current session:"
 
-options=("Default" "Minimal" "Colorful" "Informative" "Power User")
+options=("Sleek Symbol" "Cyberpunk" "Ghost" "Minimalist" "Neon Path")
 select opt in "${options[@]}" "Exit"; do
     case $opt in
-        "Default")
-            export PS1='\u@\h:\w\$ '
+        "Sleek Symbol")
+            # Green path with a Blue chevron
+            export PS1='\[\e[32m\]\w \[\e[34m\]❯ \[\e[0m\]'
             break
             ;;
-        "Minimal")
-            export PS1='\w\$ '
+        "Cyberpunk")
+            # Magenta user, Cyan host, Yellow path, Green arrow
+            export PS1='\[\e[35m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\] \[\e[33m\]\w\[\e[0m\] \[\e[32m\]➜ \[\e[0m\]'
             break
             ;;
-        "Colorful")
-            # Green user@host, Blue path
-            export PS1='\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]\$ '
+        "Ghost")
+            # Dark gray path/host with a Magenta bolt
+            export PS1='\[\e[1;30m\]\w \[\e[1;37m\]\h \[\e[35m\]⚡ \[\e[0m\]'
             break
             ;;
-        "Informative")
-            # Date, Time, User@Host, Path
-            export PS1='[\d \t] \u@\h:\w\$ '
+        "Minimalist")
+            # Directory name only (basename), Green $
+            export PS1='\[\e[1;34m\]\W \[\e[1;32m\]$ \[\e[0m\]'
             break
             ;;
-        "Power User")
-            # Multiline: Date/Time/User@Host/Path on top, prompt on bottom
-            export PS1='--- [\d \t] \u@\h ---\n\w\$ '
+        "Neon Path")
+            # High-intensity Cyan path on a new line
+            export PS1='\[\e[1;36m\]\w\[\e[0m\]\n\[\e[1;32m\]❯ \[\e[0m\]'
             break
             ;;
         "Exit")
