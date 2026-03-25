@@ -56,6 +56,7 @@ Level up your workflow with AI-powered terminal assistants.
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
 | [Copilot CLI](ai-agents/COPILOT_CLI_GUIDE.md) | Agentic terminal development environment. |
+| [Local LLMs](ai-agents/LOCAL_LLM_GUIDE.md) | Running Ollama, vLLM, and LM Studio locally. |
 | [Gemini CLI](ai-agents/GEMINI_CLI_GUIDE.md) | AI-powered terminal automation and assistance. |
 | [Claude CLI](ai-agents/CLAUDE_CLI_GUIDE.md) | Terminal interaction with Anthropic models.    |
 | [codex-cli](ai-agents/CODEX_CLI_GUIDE.md) | OpenAI's conversational terminal coding agent. |
@@ -89,3 +90,4 @@ Learn how these tools combine to solve real engineering crises.
 
 ## 📝 Contributions
 Feel free to suggest new topics or refinements to existing guides!
+ng guides!

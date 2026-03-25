@@ -63,6 +63,8 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Claude CLI Guide                 | `ai-agents/CLAUDE_CLI_GUIDE.md`                  |
 | ✅     | codex-cli Guide                  | `ai-agents/CODEX_CLI_GUIDE.md`                   |
 | ✅     | Copilot CLI Guide                | `ai-agents/COPILOT_CLI_GUIDE.md`                 |
+| ✅     | Local LLM Guide                  | `ai-agents/LOCAL_LLM_GUIDE.md`                  |
+| ✅     | Shell Prompt Guide               | `terminal/SHELL_PROMPT_GUIDE.md`                |
 
 ---
 

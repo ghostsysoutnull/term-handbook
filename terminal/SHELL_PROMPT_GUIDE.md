@@ -44,7 +44,14 @@ To make your prompt changes permanent, add the `export PS1` command to your shel
 - **File Location:** `~/.bashrc` (Linux) or `~/.bash_profile` (macOS).
 - **Applying Changes:** Run `source ~/.bashrc` after editing.
 
-## 5. Pro Tips & Gotchas
+## 5. Interactive Prompt Picker
+We provide a script to preview and apply modern prompt styles quickly.
+
+- **Usage:** `source bin/prompt-picker.sh`
+- **Features:** 10+ themes including Sleek, Cyberpunk, Dracula, and Zen.
+- **Note:** You MUST use `source` so the changes affect your current shell session.
+
+## 6. Pro Tips & Gotchas
 - **Sourcing is Key:** Scripts that change environment variables must be **sourced** (e.g., `source script.sh`) to affect the current shell. Running them directly (e.g., `./script.sh`) only affects the subshell.
 - **Escape Wrapping:** Always wrap non-printing characters (like colors) in `\[ ... \]`. Failure to do so will cause the cursor to drift and line wrapping to break.
 - **Complexity vs Speed:** Overly complex prompts (e.g., those that run git commands or network checks) can introduce noticeable lag between commands.
