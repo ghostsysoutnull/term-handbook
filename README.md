@@ -21,14 +21,17 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
 | [Shell Basics](SHELL_GUIDE.md) | Bash and Zsh navigation, aliases, and logic. |
+| [SSH & Networking](SSH_GUIDE.md) | Secure remote access, keys, and tunnels.     |
+| [Docker Essentials](DOCKER_GUIDE.md) | Container management, images, and Compose.   |
 | [GNU Screen](SCREEN_GUIDE.md) | Session and window management for Screen.    |
 | [tmux](TMUX_GUIDE.md)     | Advanced session, pane, and layout management.   |
 | [Screen vs. tmux](SCREEN_VS_TMUX.md) | A deep dive into the architectural differences. |
 
-### 3. Source Control
+### 3. Source Control & Documentation
 | Guide                     | Focus                                            |
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
+| [Markdown Best Practices](MARKDOWN_GUIDE.md) | Styling and structuring documentation. |
 
 ---
 

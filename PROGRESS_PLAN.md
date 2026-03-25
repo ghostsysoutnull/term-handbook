@@ -35,9 +35,9 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | Status | Task                             | Description                                      |
 | :----- | :------------------------------- | :----------------------------------------------- |
 | ✅     | Bash / Zsh Guide                 | Shell navigation, aliases, and scripting basics. |
-| 📅     | SSH & Networking Guide           | Connecting, key management, and port forwarding. |
-| 📅     | Docker Essentials                | Containers, images, and basic compose usage.     |
-| 📅     | Markdown Best Practices          | Styling and structuring documentation.           |
+| ✅     | SSH & Networking Guide           | Connecting, key management, and port forwarding. |
+| ✅     | Docker Essentials                | Containers, images, and basic compose usage.     |
+| ✅     | Markdown Best Practices          | Styling and structuring documentation.           |
 
 ---
 
