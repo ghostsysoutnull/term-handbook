@@ -2,6 +2,36 @@
 
 Doom Emacs is a configuration framework for Emacs focused on performance, a modular design, and an "opinionated" Vim-first experience (via Evil-mode).
 
+## 0. Quick Installation
+Before installing, ensure you have **Emacs 27.1+** installed.
+
+### Step 1: Install Dependencies
+These are essential for the performance and functionality of Doom.
+- **Git** (for version control)
+- **ripgrep** (for fast searching)
+- **fd** (for fast file finding)
+
+```bash
+# Ubuntu/Debian example
+sudo apt install git ripgrep fd-find
+```
+
+### Step 2: Clone and Install
+Run these commands in your terminal:
+```bash
+# 1. Clone the repository to your Emacs config directory
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+
+# 2. Run the automated installer
+~/.config/emacs/bin/doom install
+
+# 3. Add Doom to your PATH (e.g., in .zshrc or .bashrc)
+export PATH="$HOME/.config/emacs/bin:$PATH"
+```
+
+### Step 3: Verify the Install
+Run `doom doctor` to ensure your environment is configured correctly and identify any missing system dependencies.
+
 ## 1. The `doom` CLI
 Unlike vanilla Emacs, Doom relies on a terminal-based tool for management. These commands are essential for maintaining your environment.
 
