@@ -66,6 +66,7 @@ Agent Zero is designed to run code, which is inherently risky. It mitigates this
 ---
 
 ## 🔗 See Also
+- [Agentic Architectures](AGENTIC_ARCHITECTURES.md): Explore the mental models and concepts behind autonomous agents.
 - [Local LLM Guide](LOCAL_LLM_GUIDE.md): Master the Ollama backend that powers Agent Zero.
 - [Gemini CLI Guide](GEMINI_CLI_GUIDE.md): Compare Agent Zero with our surgical terminal agent.
 - [Docker Guide](../development/DOCKER_GUIDE.md): Understand the sandboxing environment Agent Zero uses.
