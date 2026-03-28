@@ -69,5 +69,6 @@ One of the primary reasons for local LLMs is data sovereignty.
 
 ## 🔗 See Also
 - [Gemini CLI Guide](GEMINI_CLI_GUIDE.md): Use Gemini as a front-end for your local Ollama API.
+- [Agent Zero Guide](AGENT_ZERO_GUIDE.md): Run a fully autonomous agent using your local Ollama.
 - [Sysadmin Guide](../terminal/SYSADMIN_GUIDE.md): Monitor GPU/CPU usage while running models.
 - [Python Guide](../languages/NODEJS_GUIDE.md): Learn to script around your local LLM APIs.

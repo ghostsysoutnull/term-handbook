@@ -81,5 +81,6 @@ Gemini CLI is highly context-aware, respecting both global and local constraints
 
 ## 🔗 See Also
 - [Project Mandates](../GEMINI.md): The specific rules governing this repository.
+- [Agent Zero Guide](AGENT_ZERO_GUIDE.md): Explore high-autonomy agents powered by Ollama.
 - [Git Guide](../development/GIT_GUIDE.md): Master the version control system Gemini uses for validation.
 - [Shell Basics](../terminal/SHELL_GUIDE.md): Understand the environment where Gemini executes its commands.
