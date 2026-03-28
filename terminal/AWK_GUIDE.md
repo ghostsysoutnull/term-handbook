@@ -95,6 +95,6 @@ Arrays in Awk are associative, meaning they use strings as keys. This is perfect
 ---
 
 ## 🔗 See Also
-- [Shell Basics](../terminal/SHELL_GUIDE.md): Master the pipes that feed data into awk.
-- [Power User Toolkit](../terminal/POWER_USER_TOOLKIT.md): Modern alternatives like `jq` for JSON data.
-- [Modern Alternatives](../terminal/MODERN_ALTERNATIVES.md): Fast search tools to combine with awk.
+- [Shell Basics](SHELL_GUIDE.md): Master the pipes that feed data into awk.
+- [Power User Toolkit](POWER_USER_TOOLKIT.md): Modern alternatives like `jq` for JSON data.
+- [Modern Alternatives](MODERN_ALTERNATIVES.md): Fast search tools to combine with awk.

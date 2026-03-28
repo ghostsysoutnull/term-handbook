@@ -43,5 +43,5 @@ By piping `rg` into `awk` and then `sed`, we processed gigabytes of data in seco
 
 ## 🔗 Related Guides
 - [ripgrep (Power User Toolkit)](../terminal/POWER_USER_TOOLKIT.md)
-- [awk Guide](../development/AWK_GUIDE.md)
-- [sed Guide](../development/SED_GUIDE.md)
+- [awk Guide](../terminal/AWK_GUIDE.md)
+- [sed Guide](../terminal/SED_GUIDE.md)

@@ -95,5 +95,5 @@ Managing shared objects (`.so`) requires specific flags and environment settings
 
 ## 🔗 See Also
 - [GCC Guide](GCC_GUIDE.md): Basic command-line flags.
-- [Makefile Guide](MAKEFILE_GUIDE.md): Automating multi-stage builds.
+- [Makefile Guide](../development/MAKEFILE_GUIDE.md): Automating multi-stage builds.
 - [SysAdmin Guide](../terminal/SYSADMIN_GUIDE.md): Managing system-wide libraries and `ldconfig`.

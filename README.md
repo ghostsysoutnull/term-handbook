@@ -44,19 +44,19 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | :------------------------ | :----------------------------------------------- |
 | [Git Guide](development/GIT_GUIDE.md) | Branching, merging, stashing, and remotes.       |
 | [GitHub CLI](development/GH_GUIDE.md) | Terminal-based GitHub repository management.   |
-| [Regex Master](development/REGEX_GUIDE.md) | The universal language of pattern matching.    |
-| [sed Guide](development/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
+| [Regex Master](terminal/REGEX_GUIDE.md) | The universal language of pattern matching.    |
+| [sed Guide](terminal/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
 | [Maven Guide](development/MAVEN_GUIDE.md) | Lifecycle mastery, dependency trees, and performance. |
 | [Gradle Guide](development/GRADLE_GUIDE.md) | Task-based builds, parallel execution, and `--scan`. |
 | [Maven vs. Gradle](development/MAVEN_VS_GRADLE.md) | Side-by-side Rosetta Stone and decision matrix. |
-| [Java JDK Guide](development/JAVA_JDK_GUIDE.md) | Essential tools in the modern Java SDK bin.   |
-| [Node.js Guide](development/NODEJS_GUIDE.md) | Version management (`fnm`), `pnpm`, and `npx`. |
-| [awk Guide](development/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
+| [Java JDK Guide](languages/JAVA_JDK_GUIDE.md) | Essential tools in the modern Java SDK bin.   |
+| [Node.js Guide](languages/NODEJS_GUIDE.md) | Version management (`fnm`), `pnpm`, and `npx`. |
+| [awk Guide](terminal/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
 | [CI/CD Basics](development/CICD_GUIDE.md) | Automating workflows with GitHub Actions.    |
-| [GCC Guide](development/GCC_GUIDE.md)     | Compiling C and C++ programs with GCC/G++.     |
-| [Compilation Stages](development/COMPILATION_STAGES_GUIDE.md) | Deep dive into the preprocessing, compilation, and linking. |
-| [Linux Assembly](development/ASSEMBLY_GUIDE.md) | Extensive guide for x86_64 assembly programming on Linux. |
+| [GCC Guide](languages/GCC_GUIDE.md)     | Compiling C and C++ programs with GCC/G++.     |
+| [Compilation Stages](languages/COMPILATION_STAGES_GUIDE.md) | Deep dive into the preprocessing, compilation, and linking. |
+| [Linux Assembly](languages/ASSEMBLY_GUIDE.md) | Extensive guide for x86_64 assembly programming on Linux. |
 | [Dotfiles Management](development/DOTFILES_GUIDE.md) | Syncing configs with Bare Git or GNU Stow. |
 | [Markdown Best Practices](development/MARKDOWN_GUIDE.md) | Styling and structuring documentation. |
 

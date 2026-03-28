@@ -60,4 +60,4 @@ sed 's/old/new/g; s/foo/bar/g' file
 ## 🔗 See Also
 - [Regex Master](REGEX_GUIDE.md): The syntax used for `pattern`.
 - [awk Guide](AWK_GUIDE.md): For logic-based text processing (if/else, math).
-- [Shell Basics](../terminal/SHELL_GUIDE.md): Master the pipes that flow into sed.
+- [Shell Basics](SHELL_GUIDE.md): Master the pipes that flow into sed.

@@ -141,5 +141,5 @@ Assembly is unforgiving. GDB is your best friend.
 ## 🔗 See Also
 - [GCC Guide](GCC_GUIDE.md): Using GCC to compile and link C with Assembly.
 - [Compilation Stages](COMPILATION_STAGES_GUIDE.md): Understanding how assembly fits into the build pipeline.
-- [Makefile Guide](MAKEFILE_GUIDE.md): Automate the assembly/linking process.
+- [Makefile Guide](../development/MAKEFILE_GUIDE.md): Automate the assembly/linking process.
 - [GDB Ref (Coming Soon)](#): Comprehensive debugger commands.

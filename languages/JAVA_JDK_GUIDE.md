@@ -68,5 +68,5 @@ Essential for "Battle Stories" involving performance tuning or memory leaks.
 ## 🔗 See Also
 - [Package Managers](../terminal/PACKAGE_MANAGERS_GUIDE.md): Comparing OS-level and language-level managers.
 - [Node.js Guide](NODEJS_GUIDE.md): Modern terminal workflows for the JS ecosystem.
-- [Makefile Automation](MAKEFILE_GUIDE.md): Automate your `javac` and `jar` workflows.
+- [Makefile Automation](../development/MAKEFILE_GUIDE.md): Automate your `javac` and `jar` workflows.
 - [htop Guide](../terminal/HTOP_GUIDE.md): Monitor the system impact of high-load Java processes.

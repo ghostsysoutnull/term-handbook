@@ -70,5 +70,5 @@ Gradle's scopes are more granular than Maven's.
 
 ## 🔗 See Also
 - [Maven Guide](MAVEN_GUIDE.md): Compare Gradle with the convention-based alternative.
-- [Java JDK Guide](JAVA_JDK_GUIDE.md): Understanding the JVM environment Gradle runs in.
+- [Java JDK Guide](../languages/JAVA_JDK_GUIDE.md): Understanding the JVM environment Gradle runs in.
 - [htop Guide](../terminal/HTOP_GUIDE.md): Monitor RAM and CPU usage of the Gradle Daemon.

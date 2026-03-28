@@ -55,7 +55,7 @@ Make your builds faster in the terminal.
 ---
 
 ## 🔗 See Also
-- [Java JDK Guide](JAVA_JDK_GUIDE.md): Understanding the underlying compiler and diagnostics.
+- [Java JDK Guide](../languages/JAVA_JDK_GUIDE.md): Understanding the underlying compiler and diagnostics.
 - [Package Managers](../terminal/PACKAGE_MANAGERS_GUIDE.md): How Maven fits into the broader ecosystem.
 - [Makefile Automation](MAKEFILE_GUIDE.md): Using Make to wrap complex Maven commands.
 - [htop Guide](../terminal/HTOP_GUIDE.md): Monitoring CPU impact during parallel builds.

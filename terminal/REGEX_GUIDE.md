@@ -59,4 +59,4 @@ Regex is powerful, but different tools use different "flavors":
 ## 🔗 See Also
 - [Vim Advanced](../editors/VIM_ADVANCED.md): Use regex for search and replace (`:%s/pattern/replacement/g`).
 - [awk Guide](AWK_GUIDE.md): Filter data lines with regex patterns.
-- [Power User Toolkit](../terminal/POWER_USER_TOOLKIT.md): Modern search tools like `ripgrep` use PCRE by default.
+- [Power User Toolkit](POWER_USER_TOOLKIT.md): Modern search tools like `ripgrep` use PCRE by default.

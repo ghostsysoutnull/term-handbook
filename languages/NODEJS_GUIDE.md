@@ -68,5 +68,5 @@ Run a CLI tool without installing it globally or locally.
 
 ## 🔗 See Also
 - [Package Managers](../terminal/PACKAGE_MANAGERS_GUIDE.md): Comparison of OS-level and language-level managers.
-- [Docker Essentials](DOCKER_GUIDE.md): Containerizing Node.js applications for production.
-- [GitHub CLI](GH_GUIDE.md): Automating Node.js project management on GitHub.
+- [Docker Essentials](../development/DOCKER_GUIDE.md): Containerizing Node.js applications for production.
+- [GitHub CLI](../development/GH_GUIDE.md): Automating Node.js project management on GitHub.

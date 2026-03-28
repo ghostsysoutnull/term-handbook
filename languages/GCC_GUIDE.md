@@ -56,6 +56,6 @@ GCC behavior is influenced by environment variables and system search paths.
 ---
 
 ## 🔗 See Also
-- [Makefile Guide](MAKEFILE_GUIDE.md): Automate complex GCC build commands.
+- [Makefile Guide](../development/MAKEFILE_GUIDE.md): Automate complex GCC build commands.
 - [Shell Basics](../terminal/SHELL_GUIDE.md): Navigate the filesystem where your binaries live.
-- [Regex Master](REGEX_GUIDE.md): Use regex to filter compiler warnings or search through symbols.
+- [Regex Master](../terminal/REGEX_GUIDE.md): Use regex to filter compiler warnings or search through symbols.

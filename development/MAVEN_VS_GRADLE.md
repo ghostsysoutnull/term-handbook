@@ -54,5 +54,5 @@ Gradle is more granular, allowing you to hide internal dependencies from consume
 ## 🔗 See Also
 - [Maven Guide](MAVEN_GUIDE.md): Deep dive into lifecycle and dependency trees.
 - [Gradle Guide](GRADLE_GUIDE.md): Master task graphs and performance flags.
-- [Java JDK Guide](JAVA_JDK_GUIDE.md): The underlying compiler and runtime used by both.
+- [Java JDK Guide](../languages/JAVA_JDK_GUIDE.md): The underlying compiler and runtime used by both.
 - [Screen vs. tmux](../terminal/SCREEN_VS_TMUX.md): Another "Rosetta Stone" guide for terminal multiplexers.
