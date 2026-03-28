@@ -44,7 +44,19 @@ Modern Neovim relies on these two core features for an IDE-like experience.
 | `:LspInfo`             | Check active language servers.                   |
 | `:TSUpdate`            | Update Tree-sitter parsers.                      |
 
-## 5. Built-in Terminal
+## 5. Modern Navigation
+While Neovim supports the standard Vim navigation (Netrw, `:find`), most users prefer modern plugins for speed.
+
+### Fuzzy Finding (telescope.nvim)
+The most popular way to navigate projects in Neovim.
+- `SPC f f`: Find files in the current project.
+- `SPC f g`: Live grep (search text across all files).
+- `SPC f b`: Search through open buffers.
+
+### Editing Files like Buffers (oil.nvim)
+A modern alternative to Netrw that lets you edit your file system like a standard text buffer (rename, move, and delete files using Vim commands).
+
+## 6. Built-in Terminal
 Neovim has a powerful built-in terminal.
 
 - `:terminal` (or `:term`): Open a new terminal buffer.

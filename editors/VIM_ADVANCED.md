@@ -14,7 +14,18 @@ Marks allow you to jump to specific locations across different files.
 | `'<A-Z>`| Jump to the global mark (even if in another file).|
 | `:marks`| List all current marks.                          |
 
-## 2. Automation: Macros
+## 2. Smart Navigation (Paths and Searching)
+Vim can search your project recursively if configured correctly.
+
+### The `path` and `:find`
+Add `set path+=**` to your `.vimrc` to enable recursive searching.
+- `:find <filename>`: Search for a file in your `path` and open it.
+- `Tab` (after `:find`): Cycle through matching files.
+
+### `gf` (Go to File)
+Hover your cursor over a filename or path in any text and press `gf`. Vim will immediately attempt to open that file.
+
+## 3. Automation: Macros
 Record a sequence of commands and play them back instantly.
 
 | Command | Description                                      |

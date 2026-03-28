@@ -10,7 +10,25 @@ A quick reference for common Vim operations, screen splitting, pane management, 
 - `:w`: Write (save) changes.
 - `:wq` or `:x` or `ZZ`: Save and quit.
 
-## 2. Splitting the Screen
+## 2. Browsing Files (Netrw)
+Vim has a built-in file explorer called **Netrw** that allows you to navigate folders visually.
+
+| Command      | Action                                           |
+| :----------- | :----------------------------------------------- |
+| `:Explore`   | Open the file explorer in the current window.    |
+| `:Sexplore`  | Open explorer in a horizontal split.             |
+| `:Vexplore`  | Open explorer in a vertical split.               |
+| `:Lexplore`  | Toggle a persistent left-side explorer.          |
+
+### Netrw Navigation
+Once inside the explorer:
+- `Enter`: Open the selected file or directory.
+- `o`: Open in a horizontal split.
+- `v`: Open in a vertical split.
+- `i`: Cycle through view modes (list, long, wide, tree).
+- `-`: Go up one directory level.
+
+## 3. Splitting the Screen
 - `:sp <filename>`: Horizontal split.
 - `:vsp <filename>`: Vertical split.
 - `Ctrl-w s`: Split current window horizontally.
