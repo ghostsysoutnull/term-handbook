@@ -1,63 +1,67 @@
 # codex-cli Guide: OpenAI's Coding Agent
 
-A quick reference for `codex`, the OpenAI terminal agent for conversational coding, debugging, and repository exploration.
+A comprehensive reference for `codex`, the OpenAI terminal agent for conversational coding, debugging, and repository exploration.
 
-## 1. Installation and Authentication
-| Step           | Action                                           |
-| :------------- | :----------------------------------------------- |
-| **Install**    | `npm install -g @openai/codex`                   |
-| **Login**      | `codex login` (Authenticates with your account). |
-| **Version**    | `codex --version`                                |
+## 1. Installation and Setup
+Ensure your environment is set up for high-autonomy coding tasks.
 
-## 2. Basic Commands
-| Command                | Description                                      |
-| :--------------------- | :----------------------------------------------- |
-| `codex`                | Launch the interactive terminal UI (TUI).        |
-| `codex "prompt"`       | Start a session with an initial instruction.     |
-| `codex resume`         | Open a picker to resume a previous session.      |
-| `codex resume --last`  | Jump straight into the most recent session.      |
-| `codex --image <path>` | Start a session with an image attachment.        |
+| Step           | Action                                                                        |
+| :------------- | :---------------------------------------------------------------------------- |
+| **Install**    | `npm install -g @openai/codex`                                                |
+| **Login**      | `codex login` (Follow browser authentication prompts).                        |
+| **Homebrew**   | `brew install codex`                                                          |
+| **Config**     | Create `~/.config/codex/config.json` for custom settings.                     |
 
-## 3. Approval Modes
-Codex can operate with varying levels of autonomy.
+## 2. Core Operational Workflow
+Codex operates with varying levels of autonomy depending on your confidence and project scope.
 
-| Mode           | Description                                      |
-| :------------- | :----------------------------------------------- |
-| **Suggest**    | Default: Requires approval for every edit and command. |
-| **Auto Edit**  | Automatically writes to files; asks before running commands. |
-| **Full Auto**  | Autonomously reads, writes, and executes in a sandbox. |
-
-### 3.1 Sandbox Execution Workflow
+### 2.1 Sandbox Execution Workflow
 ```text
 [ Codex Core ] <----> [ Sandbox Manager ] ----> [ Filesystem Edits ]
        |                      |             |
        +----(User Approval)---+             +--> [ Command Execution ]
 ```
 
-## 4. In-Session Commands (TUI)
-Commands available once you are inside an active Codex session.
+| Phase         | Goal                                          | Common Command                                 |
+| :------------ | :-------------------------------------------- | :--------------------------------------------- |
+| **Research**  | Index the repo and understand dependencies.   | `codex --index .`                              |
+| **Drafting**  | Generate changes in a temporary sandbox.      | `codex "Refactor the authentication flow"`     |
+| **Validation**| Run tests and verify sandbox changes.         | `codex validate`                               |
 
-| Command        | Action                                           |
-| :------------- | :----------------------------------------------- |
-| `/model`       | Switch between models (e.g., GPT-4o, o1).        |
-| `/permissions` | Change the current approval mode.                |
-| `/status`      | View session config and token usage.             |
-| `/clear`       | Wipe the terminal and start a fresh chat.        |
-| `/copy`        | Copy the latest output to your clipboard.        |
-| `/exit`        | Close the current session.                       |
+## 3. Approval Modes
+Define how much control you want to delegate to the agent.
 
-## 5. Configuration
-Codex stores its settings and session history in your home directory.
+| Mode           | Description                                                                   |
+| :------------- | :---------------------------------------------------------------------------- |
+| **Suggest**    | **(Safe)** Requires approval for every single edit and command.              |
+| **Auto Edit**  | **(Balanced)** Automatically writes to files; asks before running shell commands. |
+| **Full Auto**  | **(Autonomous)** Reads, writes, and executes in a sandboxed environment.     |
 
-- **Config Path:** `~/.config/codex/config.json`
-- **Session History:** `~/.local/share/codex/`
-- **MCP Servers:** Can be configured to extend Codex's capabilities via the Model Context Protocol.
+## 4. Advanced Workflows
+### 4.1 MCP (Model Context Protocol) Integration
+Codex supports MCP to extend its knowledge into your favorite tools.
+
+- **Add Server:** `codex mcp add <url-or-command>`
+- **Use Case:** Connect to Jira to read issues or Slack to post progress updates directly from the CLI.
+
+### 4.2 Multimodal Repository Exploration
+- **Image-to-Code:** `codex --image screenshot.png "Fix the layout to match this visual design."`
+- **Diagram Analysis:** Provide architectural diagrams to help Codex understand complex system flows.
+
+## 5. In-Session Commands (TUI)
+Manage the active agent session without leaving the terminal UI.
+
+| Command        | Action                                                                        |
+| :------------- | :---------------------------------------------------------------------------- |
+| `/model`       | Switch models (e.g., `gpt-4o` for speed, `o1` for complex logic).             |
+| `/permissions` | Dynamically change the current approval mode (Suggest/Auto/Full).            |
+| `/status`      | View token usage, active MCP servers, and sandbox state.                      |
+| `/clear`       | Wipe the current session context to save tokens and reset focus.              |
 
 ## 6. Pro Tips & Gotchas
-- **Multimodal Coding:** Use `codex --image screenshot.png "Fix the layout to match this"` to bridge the gap between design and code.
-- **Context Awareness:** Codex reads your local files to understand the project structure. Be specific about which files it should focus on.
-- **Subagents:** For massive tasks, Codex can spawn subagents to work on different parts of the problem in parallel.
-- **Sandboxing:** When using **Full Auto**, Codex runs commands in a restricted environment for safety.
+- **Sandboxing:** When using **Full Auto**, Codex executes commands in a restricted container. If a build fails due to missing dependencies, you may need to grant it network access.
+- **Context Indexing:** Run `codex --index` on large repositories. This creates a vector index that helps Codex find relevant code faster.
+- **Sub-agents:** For massive refactors, use `/spawn` to create specialized sub-agents that work on independent modules in parallel.
 
 ---
 
