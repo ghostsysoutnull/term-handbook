@@ -70,6 +70,7 @@ Emacs is configured via Emacs Lisp (Elisp).
 ---
 
 ## 🔗 See Also
+- [Doom Emacs](EMACS_DOOM_GUIDE.md): The popular Vim-first configuration framework.
 - [Vim Basics](VIM_GUIDE.md): Compare Emacs with the other giant of terminal editors.
 - [Neovim](NEOVIM_GUIDE.md): Modern Vim features often inspired by Emacs' extensibility.
 - [Shell Basics](../terminal/SHELL_GUIDE.md): Master the shell you'll often run inside Emacs via `M-x shell`.

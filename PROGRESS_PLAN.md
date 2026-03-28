@@ -45,6 +45,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | GCC Guide                        | `development/GCC_GUIDE.md`       |
 | ✅     | Compilation Stages Guide         | `development/COMPILATION_STAGES_GUIDE.md` |
 | ✅     | Emacs Guide                      | `editors/EMACS_GUIDE.md`         |
+| ✅     | Doom Emacs Guide                 | `editors/EMACS_DOOM_GUIDE.md`    |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
 ---

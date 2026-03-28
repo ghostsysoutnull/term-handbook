@@ -65,4 +65,5 @@ Vim is configured using the `.vimrc` file located in your home directory.
 ## 🔗 See Also
 - [Vim Advanced](VIM_ADVANCED.md): Macros, markers, and visual block mode.
 - [Neovim](NEOVIM_GUIDE.md): Modern features and Lua-based configuration.
+- [Doom Emacs](EMACS_DOOM_GUIDE.md): For Vim users migrating to the Emacs ecosystem.
 - [nano](NANO_GUIDE.md): For when you just need a quick, simple edit.

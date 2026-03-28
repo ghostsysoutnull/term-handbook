@@ -65,3 +65,4 @@ Neovim has a powerful built-in terminal.
 ## 🔗 See Also
 - [Vim Basics](VIM_GUIDE.md): The core concepts shared with Neovim.
 - [Vim Advanced](VIM_ADVANCED.md): Power-user techniques like macros and marks.
+- [Doom Emacs](EMACS_DOOM_GUIDE.md): A modular Emacs configuration inspired by modern editor workflows.
