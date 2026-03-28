@@ -48,6 +48,7 @@ Autonomy emerges when the model is granted the power to determine its own tool u
 ---
 
 ## 🔗 See Also
+- [Agent Operations & Evaluation](AGENT_OPERATIONS_EVALUATION.md): Measuring and managing autonomous systems.
 - [Agentic System Design](AGENTIC_SYSTEM_DESIGN.md): Detailed architectural patterns and implementation strategies.
 - [Agent Zero Guide](AGENT_ZERO_GUIDE.md): Practical implementation of an autonomous agent.
 - [Local LLM Guide](LOCAL_LLM_GUIDE.md): Understanding the inference engine (Ollama) that powers the reasoning kernel.

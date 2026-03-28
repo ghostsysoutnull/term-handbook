@@ -60,6 +60,7 @@ When scaling to complex repositories, a single agent becomes a bottleneck.
 ---
 
 ## 🔗 See Also
+- [Agent Operations & Evaluation](AGENT_OPERATIONS_EVALUATION.md): Measuring and managing autonomous systems.
 - [Agentic Architectures](AGENTIC_ARCHITECTURES.md): Theoretical foundations and cognitive concepts.
 - [Agent Zero Guide](AGENT_ZERO_GUIDE.md): Implementation walkthrough for a specific agentic framework.
 - [Local LLM Guide](LOCAL_LLM_GUIDE.md): Configuring the inference backend (Ollama).
