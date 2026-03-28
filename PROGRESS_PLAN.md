@@ -49,6 +49,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Node.js Guide                    | `development/NODEJS_GUIDE.md`    |
 | ✅     | Maven Guide                      | `development/MAVEN_GUIDE.md`     |
 | ✅     | Gradle Guide                     | `development/GRADLE_GUIDE.md`    |
+| ✅     | Maven vs. Gradle Comparison      | `development/MAVEN_VS_GRADLE.md` |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
 ---

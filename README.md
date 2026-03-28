@@ -49,6 +49,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
 | [Maven Guide](development/MAVEN_GUIDE.md) | Lifecycle mastery, dependency trees, and performance. |
 | [Gradle Guide](development/GRADLE_GUIDE.md) | Task-based builds, parallel execution, and `--scan`. |
+| [Maven vs. Gradle](development/MAVEN_VS_GRADLE.md) | Side-by-side Rosetta Stone and decision matrix. |
 | [Java JDK Guide](development/JAVA_JDK_GUIDE.md) | Essential tools in the modern Java SDK bin.   |
 | [Node.js Guide](development/NODEJS_GUIDE.md) | Version management (`fnm`), `pnpm`, and `npx`. |
 | [awk Guide](development/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
