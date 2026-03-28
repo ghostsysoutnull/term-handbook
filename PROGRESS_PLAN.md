@@ -46,6 +46,7 @@ A roadmap for creating, refining, and maintaining a high-quality collection of d
 | ✅     | Compilation Stages Guide         | `development/COMPILATION_STAGES_GUIDE.md` |
 | ✅     | Emacs Guide                      | `editors/EMACS_GUIDE.md`         |
 | ✅     | Doom Emacs Guide                 | `editors/EMACS_DOOM_GUIDE.md`    |
+| ✅     | Node.js Guide                    | `development/NODEJS_GUIDE.md`    |
 | ✅     | Project Mandates (GEMINI.md)      | `GEMINI.md`                |
 
 ---
