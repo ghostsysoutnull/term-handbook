@@ -48,6 +48,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [sed Guide](development/SED_GUIDE.md)     | Stream editor for bulk text manipulation.      |
 | [Makefile Guide](development/MAKEFILE_GUIDE.md) | Task automation and build management.          |
 | [Maven Guide](development/MAVEN_GUIDE.md) | Lifecycle mastery, dependency trees, and performance. |
+| [Gradle Guide](development/GRADLE_GUIDE.md) | Task-based builds, parallel execution, and `--scan`. |
 | [Java JDK Guide](development/JAVA_JDK_GUIDE.md) | Essential tools in the modern Java SDK bin.   |
 | [Node.js Guide](development/NODEJS_GUIDE.md) | Version management (`fnm`), `pnpm`, and `npx`. |
 | [awk Guide](development/AWK_GUIDE.md)     | Pattern scanning and text-processing language. |
