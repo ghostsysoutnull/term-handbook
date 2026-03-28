@@ -32,6 +32,7 @@ Welcome! This repository contains high-quality Markdown guides designed for quic
 | [Modern Alternatives](terminal/MODERN_ALTERNATIVES.md) | `bat`, `eza`, `zoxide`, `btop`, `zellij`, and `yazi`. |
 | [Docker Essentials](development/DOCKER_GUIDE.md) | Container management, images, and Compose.   |
 | [SysAdmin Essentials](terminal/SYSADMIN_GUIDE.md) | `systemd`, `journalctl`, `cron`, and `ufw`.  |
+| [Package Managers](terminal/PACKAGE_MANAGERS_GUIDE.md) | `apt`, `brew`, `nix`, and the universal syntax. |
 | [Web Browsers](terminal/WEB_BROWSERS_GUIDE.md) | Browsing without a GUI with `lynx`, `w3m`, and `elinks`. |
 | [htop Guide](terminal/HTOP_GUIDE.md) | Interactive process monitoring and management. |
 | [GNU Screen](terminal/SCREEN_GUIDE.md) | Session and window management for Screen.    |
